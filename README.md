@@ -17,6 +17,7 @@ Actuellement, il gérée :
 - Email
 - Telegram
 - TTS
+- SMS via JPI
 
 Petit screen :
 
@@ -192,6 +193,13 @@ Format : tts_{VOLUME}_{ENTITY_ID_DU_MEDIA_PLAYER}
 msg.dest = "tts_80_hall"
 ```
 
+**SMS**
+dest doit commencer par `sms_`
+
+_Exemple:_
+```
+msg.dest = "sms_clement"
+```
 **Configuration**
 
 Le subflow récupére sa configuration via la variable Global notif.
@@ -201,40 +209,49 @@ TTS n’a besoin d’aucune configuration particulière
 *Exemple:*
 
 ```
-// Discord channel ID
-var discord = {
-    "discord_communaute_news": XXXXXX,
-    "discord_maison_general": XXXXXX,
-    "discord_maison_alert": XXXXXX,
-    "discord_maison_information": XXXXXX,
-    "discord_maison_network": XXXXXX,
-    "discord_maison_volets": XXXXXX,
+var configuration = 
+{
+    "discord": {
+        "dest": {
+            "discord_communaute_news": "https://discord.com/api/webhooks/XXXXXXXXXXXXXXXX",
+            "discord_communaute_zwave": "https://discord.com/api/webhooks/YYYYYYYYYYYYYYYY",
+            "discord_communaute_diy": "https://discord.com/api/webhooks/ZZZZZZZZZZZZZZZZZ",
+        }
+    },
+    "home_assistant": {
+        "dest": {
+            "tel_clement": "mobile_app_oneplus_a6010",
+            "tel_nathalie": "mobile_app_oneplus_a5000"
+        }
+    },
+    "email": {
+        "dest": {
+            "mail_clement": "email1@domain.fr",
+            "mail_john": "email2@domain.fr",
+            "mail_bibi": "email3@domain.fr"        
+        }
+    },
+    "telegram": {
+        "dest": {
+            "telegram_smarthome": "ID1",
+            "telegram_bot": "ID2"        
+        }
+    },
+    "mattermost": {
+        "dest": {
+            "mattermost_home" : "https://mattermost.domain.fr/hooks/XXXXXXXXXXXXXXXXXXXXXXXXX",
+            "mattermost_volets" : "https://mattermost.domain.fr/hooks/YYYYYYYYYYYYYYYYYYYYYYYY",
+        }
+    },
+    "jpi": {
+        "address": "192.168.1.1:8080",
+        "dest": {
+            "sms_clement": "06XXXXXXXXX",
+            "sms_nathalie": "06YYYYYYYYY",
+        }
+    }
 }
-
-// Entity ID of your phone
-var home_assistant = {
-    "tel_clement": "mobile_app_oneplus_a6010",
-    "tel_nathalie": "mobile_app_oneplus_a5000"
-}
-
-// Email
-var email = {
-    "mail_1": "mail_1@xxxx.fr",
-    "mail_2": "mail_2@xxxx.fr",
-    "mail_3": "mail_3@xxxx.fr"
-}
-
-// Telegram channel_id
-var telegram = {
-    "telegram_smarthome": "-channel_id",
-    "telegram_serie": "-channel_id",
-    "telegram_film": "-channel_id"
-}
-
-global.set("notif.discord",discord);
-global.set("notif.home_assistant",home_assistant);
-global.set("notif.email",email);
-global.set("notif.telegram",telegram);
+global.set("notif",configuration)
 ```
 
 Pour vous aidez dans la configuration voici une function qui va vous permettres de pousser votre configuration à chaque deploiement.
