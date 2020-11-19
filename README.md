@@ -18,6 +18,7 @@ Actuellement, il gérée :
 - Telegram
 - TTS
 - SMS via JPI
+- Awtrix
 
 Petit screen :
 
@@ -200,6 +201,15 @@ _Exemple:_
 ```
 msg.dest = "sms_clement"
 ```
+
+**Awtrix**
+dest doit commencer par `awtrix_`
+
+_Exemple:_
+```
+msg.dest = "awtrix_home"
+```
+
 **Configuration**
 
 Le subflow récupére sa configuration via la variable Global notif.
@@ -248,6 +258,12 @@ var configuration =
         "dest": {
             "sms_clement": "06XXXXXXXXX",
             "sms_nathalie": "06YYYYYYYYY",
+        }
+    },
+    "awtrix": {
+        "dest": {
+            "awtrix_home": "192.168.1.1:7000",
+            "awtrix_desk": "192.168.1.2:7000",
         }
     }
 }
