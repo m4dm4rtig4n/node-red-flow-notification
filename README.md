@@ -17,7 +17,7 @@ Actuellement, il gérée :
 - Email
 - Telegram
 - TTS
-- SMS via JPI
+- SMS via HTTP
 - Awtrix
 
 Petit screen :
@@ -253,8 +253,8 @@ var configuration =
             "mattermost_volets" : "https://mattermost.domain.fr/hooks/YYYYYYYYYYYYYYYYYYYYYYYY",
         }
     },
-    "jpi": {
-        "address": "192.168.1.1:8080",
+    "sms": {
+        "url": "http://192.168.1.1:8080/?action=sendSms&number=##SMSNUMBER##&message=##MESSAGE##",
         "dest": {
             "sms_clement": "06XXXXXXXXX",
             "sms_nathalie": "06YYYYYYYYY",
