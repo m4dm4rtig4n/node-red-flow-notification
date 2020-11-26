@@ -1997,7 +1997,6 @@
     {
         "id": "930eda8b.cf74a8",
         "type": "telegram bot",
-        "z": "711f44dc.b8379c",
         "botname": "Node-RED",
         "usernames": "",
         "chatids": "",
