@@ -17,7 +17,7 @@ Actuellement, il gérée :
 - Email
 - Telegram
 - TTS
-- SMS via JPI
+- SMS via HTTP
 - Awtrix
 
 Petit screen :
@@ -253,8 +253,8 @@ var configuration =
             "mattermost_volets" : "https://mattermost.domain.fr/hooks/YYYYYYYYYYYYYYYYYYYYYYYY",
         }
     },
-    "jpi": {
-        "address": "192.168.1.1:8080",
+    "sms": {
+        "url": "http://192.168.1.1:8080/?action=sendSms&number=##SMSNUMBER##&message=##MESSAGE##",
         "dest": {
             "sms_clement": "06XXXXXXXXX",
             "sms_nathalie": "06YYYYYYYYY",
@@ -275,7 +275,74 @@ Pour vous aidez dans la configuration voici une function qui va vous permettres 
 Tout ce passe dans le node Function.
 
 ```
-[{"id":"bbda9cf1.ad8ba","type":"inject","z":"4787bdd6.9aa874","name":"","props":[{"p":"payload"}],"repeat":"","crontab":"","once":true,"onceDelay":0.1,"topic":"","payload":"","payloadType":"date","x":130,"y":130,"wires":[["513d2c9.069c3d4"]]},{"id":"dacca689.055138","type":"function","z":"4787bdd6.9aa874","name":"Configurateur EXEMPLE","func":"var configuration = \n{\n    \"discord\": {\n        \"dest\": {\n            \"discord_communaute_news\": \"https://discord.com/api/webhooks/XXXXXXXXXXXXXXXX\",\n            \"discord_communaute_zwave\": \"https://discord.com/api/webhooks/YYYYYYYYYYYYYYYY\",\n            \"discord_communaute_diy\": \"https://discord.com/api/webhooks/ZZZZZZZZZZZZZZZZZ\",\n        }\n    },\n    \"home_assistant\": {\n        \"dest\": {\n            \"tel_clement\": \"mobile_app_oneplus_a6010\",\n            \"tel_nathalie\": \"mobile_app_oneplus_a5000\"\n        }\n    },\n    \"email\": {\n        \"dest\": {\n            \"mail_clement\": \"email1@domain.fr\",\n            \"mail_john\": \"email2@domain.fr\",\n            \"mail_bibi\": \"email3@domain.fr\"        \n        }\n    },\n    \"telegram\": {\n        \"dest\": {\n            \"telegram_smarthome\": \"ID1\",\n            \"telegram_bot\": \"ID2\"        \n        }\n    },\n    \"mattermost\": {\n        \"dest\": {\n            \"mattermost_home\" : \"https://mattermost.domain.fr/hooks/XXXXXXXXXXXXXXXXXXXXXXXXX\",\n            \"mattermost_volets\" : \"https://mattermost.domain.fr/hooks/YYYYYYYYYYYYYYYYYYYYYYYY\",\n        }\n    },\n    \"jpi\": {\n        \"address\": \"192.168.1.1:8080\",\n        \"dest\": {\n            \"sms_clement\": \"06XXXXXXXXX\",\n            \"sms_nathalie\": \"06YYYYYYYYY\",\n        }\n    }\n}\nglobal.set(\"notif\",configuration)\n\nreturn msg;","outputs":1,"noerr":0,"initialize":"","finalize":"","x":540,"y":130,"wires":[[]]},{"id":"513d2c9.069c3d4","type":"change","z":"4787bdd6.9aa874","name":"Remove old config","rules":[{"t":"delete","p":"notif","pt":"global"}],"action":"","property":"","from":"","to":"","reg":false,"x":310,"y":130,"wires":[["dacca689.055138"]]}]
+[
+    {
+        "id": "bbda9cf1.ad8ba",
+        "type": "inject",
+        "z": "a9ae8a01.8a5bd8",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 290,
+        "y": 260,
+        "wires": [
+            [
+                "513d2c9.069c3d4"
+            ]
+        ]
+    },
+    {
+        "id": "dacca689.055138",
+        "type": "function",
+        "z": "a9ae8a01.8a5bd8",
+        "name": "Configurateur EXEMPLE",
+        "func": "var configuration = \n{\n    \"discord\": {\n        \"dest\": {\n            \"discord_communaute_news\": \"https://discord.com/api/webhooks/XXXXXXXXXXXXXXXX\",\n            \"discord_communaute_zwave\": \"https://discord.com/api/webhooks/YYYYYYYYYYYYYYYY\",\n            \"discord_communaute_diy\": \"https://discord.com/api/webhooks/ZZZZZZZZZZZZZZZZZ\",\n        }\n    },\n    \"home_assistant\": {\n        \"dest\": {\n            \"tel_clement\": \"mobile_app_oneplus_a6010\",\n            \"tel_nathalie\": \"mobile_app_oneplus_a5000\"\n        }\n    },\n    \"email\": {\n        \"dest\": {\n            \"mail_clement\": \"email1@domain.fr\",\n            \"mail_john\": \"email2@domain.fr\",\n            \"mail_bibi\": \"email3@domain.fr\"        \n        }\n    },\n    \"telegram\": {\n        \"dest\": {\n            \"telegram_smarthome\": \"ID1\",\n            \"telegram_bot\": \"ID2\"        \n        }\n    },\n    \"mattermost\": {\n        \"dest\": {\n            \"mattermost_home\" : \"https://mattermost.domain.fr/hooks/XXXXXXXXXXXXXXXXXXXXXXXXX\",\n            \"mattermost_volets\" : \"https://mattermost.domain.fr/hooks/YYYYYYYYYYYYYYYYYYYYYYYY\",\n        }\n    },\n    \"sms\": {\n        \"url\": \"http://192.168.1.1:8080/?action=sendSms&number=##SMSNUMBER##&message=##MESSAGE##\",\n        \"dest\": {\n            \"sms_clement\": \"06XXXXXXXXX\",\n            \"sms_nathalie\": \"06YYYYYYYYY\",\n        }\n    }\n}\nglobal.set(\"notif\",configuration)\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 700,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "513d2c9.069c3d4",
+        "type": "change",
+        "z": "a9ae8a01.8a5bd8",
+        "name": "Remove old config",
+        "rules": [
+            {
+                "t": "delete",
+                "p": "notif",
+                "pt": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 470,
+        "y": 260,
+        "wires": [
+            [
+                "dacca689.055138"
+            ]
+        ]
+    }
+]
 ```
 Et voici un exemple de flow d’input :
 
