@@ -31,7 +31,7 @@ Actuellement il gérée les services :
 
 **Entrée**
 
-Node-RED :
+***Node-RED :***
 
 Voici la liste des inputs actuellement possible :
 
@@ -45,7 +45,7 @@ msg.document = "/data/doc.js"
 msg.video = "/data/video.mp4"
 ```
 
-HTTP (GET) :
+***HTTP (GET) :***
 
 Il est possible d'utiliser le service de notification via n'importe qu'elle autres services même ceux non reliée à Node-RED
 via le endpoint HTTP (GET) `/notif`.
@@ -54,6 +54,8 @@ Exemple :
 ```
 https://URL.VERS.NODERED/notif?title=test&dest=discord_maison_general&message=coucou
 ```
+
+***Liste des inputs possible :***
 
 Tout les inputs ne sont pas forcément compatible avec les différents services.
 
