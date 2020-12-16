@@ -2,31 +2,9 @@
 
 Liens vers le flow : [ici](export.flow)
 
-Hello,
-
-Après avoir passer quelques heures sur mon système de notification multi-channel, je me dit que ça pourrais être cool partager mon subflow :wink:
-
-Il est encore en cours de peaufinage, mais va déjà vous permettre de centralisé toutes vos notifications.
-
-Actuellement, il gérée :
-
-- HTML5 via Home Assistant
-- Discord
-- Mattermost
-- Home Assistant (application mobile)
-- Email
-- Telegram
-- TTS
-- SMS via HTTP
-- Awtrix
-
 Petit screen :
 
-![Screen](2020-10-30_09-34.png)
-
-Je vous joins également la petite doc que j’ai intégrée dans le subflow :
-
-----
+![Screen](2020-12-16_10-48.png)
 
 **Information**
 
@@ -41,6 +19,8 @@ Actuellement il gérée les services :
 - Email
 - TTS
 - Home Assistant (Mobile App)
+- SMS via HTTP
+- Awtrix
 
 **Pré-requis**
 
@@ -50,6 +30,8 @@ Actuellement il gérée les services :
 - node-red-contrib-telegrambot
 
 **Entrée**
+
+Node-RED :
 
 Voici la liste des inputs actuellement possible :
 
@@ -63,7 +45,17 @@ msg.document = "/data/doc.js"
 msg.video = "/data/video.mp4"
 ```
 
-Tout les inputs ne sont pas forcement compatible avec les differents services.
+HTTP (GET) :
+
+Il est possible d'utiliser le service de notification via n'importe qu'elle autres services même ceux non reliée à Node-RED
+via le endpoint HTTP (GET) `/notif`.
+
+Exemple :
+```
+https://URL.VERS.NODERED/notif?title=test&dest=discord_maison_general&message=coucou
+```
+
+Tout les inputs ne sont pas forcément compatible avec les différents services.
 
 **Titre** / *msg.title*
 

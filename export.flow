@@ -7,8 +7,8 @@
         "category": "",
         "in": [
             {
-                "x": 40,
-                "y": 480,
+                "x": 100,
+                "y": 580,
                 "wires": [
                     {
                         "id": "bb6496b6.c5fb38"
@@ -21,7 +21,7 @@
         "color": "#4A88C0",
         "icon": "font-awesome/fa-comment",
         "status": {
-            "x": 1740,
+            "x": 2160,
             "y": 100,
             "wires": [
                 {
@@ -55,7 +55,7 @@
             "4adb3e12.c6031",
             "8c1c7eae.f4fe8"
         ],
-        "x": 874,
+        "x": 1294,
         "y": 919,
         "w": 872,
         "h": 362
@@ -90,7 +90,7 @@
             "4bbdd1c0.ff6a7",
             "18cbe457.1dfa6c"
         ],
-        "x": 874,
+        "x": 1294,
         "y": 179,
         "w": 2572,
         "h": 122
@@ -111,7 +111,7 @@
             "8dd71a85.f2d438",
             "a3064f17.e8a538"
         ],
-        "x": 874,
+        "x": 1294,
         "y": 1309,
         "w": 552,
         "h": 82
@@ -133,7 +133,7 @@
             "bb7809ff.a41588",
             "7bedaa16.93eda4"
         ],
-        "x": 874,
+        "x": 1294,
         "y": 459,
         "w": 1032,
         "h": 82
@@ -155,7 +155,7 @@
             "81b3a930.d07b08",
             "4e1a58dc.5faf88"
         ],
-        "x": 874,
+        "x": 1294,
         "y": 59,
         "w": 812,
         "h": 82
@@ -183,7 +183,7 @@
             "5cef7e36.fb01f",
             "8e5741c9.438b9"
         ],
-        "x": 874,
+        "x": 1294,
         "y": 739,
         "w": 1532,
         "h": 162
@@ -204,7 +204,7 @@
             "39428588.44afda",
             "4f3f2917.7e3108"
         ],
-        "x": 874,
+        "x": 1294,
         "y": 1419,
         "w": 552,
         "h": 82
@@ -232,7 +232,7 @@
             "e896886c.c45658",
             "2e838fa7.9cc17"
         ],
-        "x": 874,
+        "x": 1294,
         "y": 559,
         "w": 1512,
         "h": 162
@@ -255,7 +255,7 @@
             "24afc5e8.8aadfa",
             "e9da4b4c.c20068"
         ],
-        "x": 874,
+        "x": 1294,
         "y": 339,
         "w": 1032,
         "h": 82
@@ -317,7 +317,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 9,
-        "x": 720,
+        "x": 1130,
         "y": 580,
         "wires": [
             [
@@ -378,7 +378,7 @@
         "output_location": "",
         "output_location_type": "none",
         "mustacheAltTags": false,
-        "x": 1410,
+        "x": 1830,
         "y": 100,
         "wires": [
             [
@@ -397,7 +397,7 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1000,
+        "x": 1420,
         "y": 100,
         "wires": [
             [
@@ -416,7 +416,7 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1330,
+        "x": 1750,
         "y": 380,
         "wires": [
             [
@@ -435,7 +435,7 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1000,
+        "x": 1420,
         "y": 380,
         "wires": [
             [
@@ -461,7 +461,7 @@
         "output_location": "",
         "output_location_type": "none",
         "mustacheAltTags": false,
-        "x": 1520,
+        "x": 1940,
         "y": 380,
         "wires": [
             [
@@ -480,7 +480,7 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1290,
+        "x": 1710,
         "y": 500,
         "wires": [
             [
@@ -509,7 +509,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 990,
+        "x": 1410,
         "y": 500,
         "wires": [
             [
@@ -528,7 +528,7 @@
         "tls": false,
         "name": "",
         "dname": "",
-        "x": 1550,
+        "x": 1970,
         "y": 500,
         "wires": []
     },
@@ -538,7 +538,7 @@
         "z": "711f44dc.b8379c",
         "name": "========== DOCUMENTATION EN ==========",
         "info": "# Information\n\nThis flow aims to centralize all notifications.\n\nActualy, it's work with :\n- HTML5 (by Home Assistant)\n- Discord\n- Telegram\n- Email\n- TTS\n- Home Assistant (Mobile App)\n- SMS by HTTP\n\n# Requirement\n\n- node-red-contrib-chatbot\n- node-red-contrib-chatbot-discord\n- node-red-contrib-string\n- node-red-contrib-home-assistant-websocket\n- node-red-node-email\n\n\n# Input\n\nIn this exemple, you can find all inut :\n\n```\nmsg.title = \"Home Assistant - New version available\"\nmsg.dest = \"tel_clement;mail_clement;tts_80_hall\"  \nmsg.message = \"Home Assistant : New version available => 0.113.0 \\n\nhttps://github.com/home-assistant/core/releases/tag/0.113.0\"\nmsg.short_message = \"Home Assistant : New version available (0.113.0)\"\nmsg.image = \"/data/image.jpeg\"\nmsg.document = \"/data/doc.js\"\nmsg.video = \"/data/video.mp4\"\n```\n> All inputs are not necessarily compatible with all services\n\n\n## Title / `msg.title`\n\n_Available on : Email_\n\nTitle use only for email\n\n_Exemple:_\n\n```\nmsg.title = \"Home Assistant - New version available\"\n```\n\n## Message / `msg.message`\n\n_Available on : Email / Telegram / Discord_\n\nLong version of message\n\n_Exemple:_\n\n```\nmsg.message = \"Home Assistant : New version available => 0.113.0 \\n https://github.com/home-assistant/core/releases/tag/0.113.0\"\n```\n\n## Short Message / `msg.short_message`\n_Available on : HTML5 / Home Assistant_\n\nShort Message use in \"popup'\n\n_Exemple:_\n```\nmsg.short_message = \"Home Assistant : New version available (0.113.0)\"\n```\n\n**WARNING : Message are Trim & `\\n` replace by space**\n> => If not set, i take msg.message.\n  \n## Image / `msg.image`\n_Available on : Telegram_\n\n_Exemple:_\n```\nmsg.image = \"/data/image.jpeg\"\nmsg.image = \"https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg\"\n```\n## Document / `msg.document`\n_Available on : Telegram_\n_Exemple:_\n```\nmsg.document = \"/data/doc.js\"\n```\n## Video / `msg.video`\n_Available on : Telegram_\n_Exemple:_\n```\nmsg.video = \"/data/video.mp4\"\n```\n\n## Destination / `msg.dest`\n\n_Available on : All_\n\nIs a string to contains all destination separated by \"`;`\"\n\n_Exemple:_\n\n```\nmsg.dest = \"tel_clement;mail_clement;tts_80_hall\"  \n```\n\nMessage send to :\n- tel_clement \n- mail_clement\n- tts_80_hall       \n\n### HTML5\nThis dest is always notify, you don't need to add this dest.\n\n### Discord \nDest must start by `discord_`\n\n_Exemple:_\n```\nmsg.dest = \"discord_communaute_news;discord_maison_information;discord_maison_network\"  \n```\n\n### Home Assistant \nDest must start by `tel_`\n\n_Exemple:_\n```\nmsg.dest = \"tel_clement;tel_papa;tel_maman\n```\n### Email \nDest must start by `mail_`\n\n_Exemple:_\n```\nmsg.dest = \"mail_clement;mail_thomas\"\n```\n### Telegram\nDest must start by `telegram_`\n\n_Exemple:_\n```\nmsg.dest = \"telegram_smarthome;telegram_familly\"\n```\n### TTS\nDest must start by `tts_`\n\nFormat : `tts_{VOLUME}_{ENTITY_ID_OF_MEDIA_PLAYER}`\n\n_Exemple:_\n```\nmsg.dest = \"tts_80_hall\"\n```\n\n### SMS\nDest must start by `sms_`\n\n\n_Exemple:_\n```\nmsg.dest = \"sms_clement\"\n```\n\n# Configuration\nSubflow get configuration in global variable `notif.`\n> TTS no need configuration\n\n_Exemple:_\n\n```\nvar configuration = \n{\n    \"discord\": {\n        \"dest\": {\n            \"discord_communaute_news\": \"https://discord.com/api/webhooks/XXXXXXXXXXXXXXXX\",\n            \"discord_communaute_zwave\": \"https://discord.com/api/webhooks/YYYYYYYYYYYYYYYY\",\n            \"discord_communaute_diy\": \"https://discord.com/api/webhooks/ZZZZZZZZZZZZZZZZZ\",\n        }\n    },\n    \"home_assistant\": {\n        \"dest\": {\n            \"tel_clement\": \"mobile_app_oneplus_a6010\",\n            \"tel_nathalie\": \"mobile_app_oneplus_a5000\"\n        }\n    },\n    \"email\": {\n        \"dest\": {\n            \"mail_clement\": \"email1@domain.fr\",\n            \"mail_john\": \"email2@domain.fr\",\n            \"mail_bibi\": \"email3@domain.fr\"        \n        }\n    },\n    \"telegram\": {\n        \"dest\": {\n            \"telegram_smarthome\": \"ID1\",\n            \"telegram_bot\": \"ID2\"        \n        }\n    },\n    \"mattermost\": {\n        \"dest\": {\n            \"mattermost_home\" : \"https://mattermost.domain.fr/hooks/XXXXXXXXXXXXXXXXXXXXXXXXX\",\n            \"mattermost_volets\" : \"https://mattermost.domain.fr/hooks/YYYYYYYYYYYYYYYYYYYYYYYY\",\n        }\n    },\n    \"sms\": {\n        \"url\": \"http://192.168.1.1:8080/?action=sendSms&number=##SMSNUMBER##&message=##MESSAGE##\",\n        \"dest\": {\n            \"sms_clement\": \"06XXXXXXXXX\",\n            \"sms_nathalie\": \"06YYYYYYYYY\",\n        }\n    }\n}\nglobal.set(\"notif\",configuration)\n\nreturn msg;\n```\n\nYou can take this flow to help you to configure sublow :) \n\n\n```\n[\n    {\n        \"id\": \"bbda9cf1.ad8ba\",\n        \"type\": \"inject\",\n        \"z\": \"a9ae8a01.8a5bd8\",\n        \"name\": \"\",\n        \"props\": [\n            {\n                \"p\": \"payload\"\n            }\n        ],\n        \"repeat\": \"\",\n        \"crontab\": \"\",\n        \"once\": true,\n        \"onceDelay\": 0.1,\n        \"topic\": \"\",\n        \"payload\": \"\",\n        \"payloadType\": \"date\",\n        \"x\": 290,\n        \"y\": 260,\n        \"wires\": [\n            [\n                \"513d2c9.069c3d4\"\n            ]\n        ]\n    },\n    {\n        \"id\": \"dacca689.055138\",\n        \"type\": \"function\",\n        \"z\": \"a9ae8a01.8a5bd8\",\n        \"name\": \"Configurateur EXEMPLE\",\n        \"func\": \"var configuration = \\n{\\n    \\\"discord\\\": {\\n        \\\"dest\\\": {\\n            \\\"discord_communaute_news\\\": \\\"https://discord.com/api/webhooks/XXXXXXXXXXXXXXXX\\\",\\n            \\\"discord_communaute_zwave\\\": \\\"https://discord.com/api/webhooks/YYYYYYYYYYYYYYYY\\\",\\n            \\\"discord_communaute_diy\\\": \\\"https://discord.com/api/webhooks/ZZZZZZZZZZZZZZZZZ\\\",\\n        }\\n    },\\n    \\\"home_assistant\\\": {\\n        \\\"dest\\\": {\\n            \\\"tel_clement\\\": \\\"mobile_app_oneplus_a6010\\\",\\n            \\\"tel_nathalie\\\": \\\"mobile_app_oneplus_a5000\\\"\\n        }\\n    },\\n    \\\"email\\\": {\\n        \\\"dest\\\": {\\n            \\\"mail_clement\\\": \\\"email1@domain.fr\\\",\\n            \\\"mail_john\\\": \\\"email2@domain.fr\\\",\\n            \\\"mail_bibi\\\": \\\"email3@domain.fr\\\"        \\n        }\\n    },\\n    \\\"telegram\\\": {\\n        \\\"dest\\\": {\\n            \\\"telegram_smarthome\\\": \\\"ID1\\\",\\n            \\\"telegram_bot\\\": \\\"ID2\\\"        \\n        }\\n    },\\n    \\\"mattermost\\\": {\\n        \\\"dest\\\": {\\n            \\\"mattermost_home\\\" : \\\"https://mattermost.domain.fr/hooks/XXXXXXXXXXXXXXXXXXXXXXXXX\\\",\\n            \\\"mattermost_volets\\\" : \\\"https://mattermost.domain.fr/hooks/YYYYYYYYYYYYYYYYYYYYYYYY\\\",\\n        }\\n    },\\n    \\\"sms\\\": {\\n        \\\"url\\\": \\\"http://192.168.1.1:8080/?action=sendSms&number=##SMSNUMBER##&message=##MESSAGE##\\\",\\n        \\\"dest\\\": {\\n            \\\"sms_clement\\\": \\\"06XXXXXXXXX\\\",\\n            \\\"sms_nathalie\\\": \\\"06YYYYYYYYY\\\",\\n        }\\n    }\\n}\\nglobal.set(\\\"notif\\\",configuration)\\n\\nreturn msg;\",\n        \"outputs\": 1,\n        \"noerr\": 0,\n        \"initialize\": \"\",\n        \"finalize\": \"\",\n        \"x\": 700,\n        \"y\": 260,\n        \"wires\": [\n            []\n        ]\n    },\n    {\n        \"id\": \"513d2c9.069c3d4\",\n        \"type\": \"change\",\n        \"z\": \"a9ae8a01.8a5bd8\",\n        \"name\": \"Remove old config\",\n        \"rules\": [\n            {\n                \"t\": \"delete\",\n                \"p\": \"notif\",\n                \"pt\": \"global\"\n            }\n        ],\n        \"action\": \"\",\n        \"property\": \"\",\n        \"from\": \"\",\n        \"to\": \"\",\n        \"reg\": false,\n        \"x\": 470,\n        \"y\": 260,\n        \"wires\": [\n            [\n                \"dacca689.055138\"\n            ]\n        ]\n    }\n]\n```\n\nExemple of input :\n\n```\n[{\"id\":\"66da3fb7.1e4ff\",\"type\":\"change\",\"z\":\"8a8a63c5.0c3c2\",\"name\":\"\",\"rules\":[{\"t\":\"set\",\"p\":\"title\",\"pt\":\"msg\",\"to\":\"Coucou\",\"tot\":\"str\"},{\"t\":\"set\",\"p\":\"message\",\"pt\":\"msg\",\"to\":\"Long Message\",\"tot\":\"str\"},{\"t\":\"set\",\"p\":\"short_message\",\"pt\":\"msg\",\"to\":\"Short Message\",\"tot\":\"str\"},{\"t\":\"set\",\"p\":\"dest\",\"pt\":\"msg\",\"to\":\"tel_clement;mail_clement\",\"tot\":\"str\"}],\"action\":\"\",\"property\":\"\",\"from\":\"\",\"to\":\"\",\"reg\":false,\"x\":740,\"y\":1880,\"wires\":[[\"7300bcc2.c97c34\"]]}]\n```",
-        "x": 300,
+        "x": 610,
         "y": 240,
         "wires": []
     },
@@ -553,7 +553,7 @@
         "arraySpltType": "len",
         "stream": false,
         "addname": "",
-        "x": 130,
+        "x": 460,
         "y": 580,
         "wires": [
             [
@@ -580,8 +580,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 190,
-        "y": 480,
+        "x": 270,
+        "y": 580,
         "wires": [
             [
                 "82df49fa.94fce8"
@@ -603,7 +603,7 @@
         "randomLast": "5",
         "randomUnits": "seconds",
         "drop": false,
-        "x": 280,
+        "x": 630,
         "y": 580,
         "wires": [
             [
@@ -630,7 +630,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 490,
+        "x": 860,
         "y": 580,
         "wires": [
             [
@@ -644,7 +644,7 @@
         "z": "711f44dc.b8379c",
         "name": "========== DOCUMENTATION FR ==========",
         "info": "# Information\n\nCe subflow va vous permettre de notifier plusieurs service en même temps.\n\nActuellement il gérée les services :\n- HTML5 (by Home Assistant)\n- Discord\n- Telegram\n- Email\n- TTS\n- Home Assistant (Mobile App)\n- SMS via HTTP\n\n# Pré-requis\n\n- node-red-contrib-chatbot\n- node-red-contrib-chatbot-discord\n- node-red-contrib-string\n- node-red-contrib-home-assistant-websocket\n- node-red-node-email\n\n\n# Entrée\n\nVoici la liste des inputs actuellement possible :\n\n```\nmsg.title = \"Home Assistant - New version available\"\nmsg.dest = \"tel_clement;mail_clement;tts_80_hall\"  \nmsg.message = \"Home Assistant : New version available => 0.113.0 \\n\nhttps://github.com/home-assistant/core/releases/tag/0.113.0\"\nmsg.short_message = \"Home Assistant : New version available (0.113.0)\"\nmsg.image = \"/data/image.jpeg\"\nmsg.document = \"/data/doc.js\"\nmsg.video = \"/data/video.mp4\"\n```\n> Tout les inputs ne sont pas forcement compatible avec les differents services.\n\n## Titre / `msg.title`\n\n_Disponible sur : Email_\n\nTitre du mail.\n\n_Exemple:_\n\n```\nmsg.title = \"Home Assistant - New version available\"\n```\n\n## Message / `msg.message`\n\n_Disponible sur : Email / Telegram / Discord_\n\nVersion longue du message.\n\n_Exemple:_\n\n```\nmsg.message = \"Home Assistant : New version available => 0.113.0 \\n https://github.com/home-assistant/core/releases/tag/0.113.0\"\n```\n\n## Message court / `msg.short_message`\n\n_Disponible sur : HTML5 / Home Assistant_\n\nMessage reduit pour les services type \"popup\".\n\n_Exemple:_\n```\nmsg.short_message = \"Home Assistant : New version available (0.113.0)\"\n```\n\n**ATTENTION : Les messages est `trim` et les `\\n` sont remplacer par des espace**\n> => Si il n'est pas défini, je reprend les `msg.message`\n\n## Image / `msg.image`\n\n_Disponible sur : Telegram_\n\n_Exemple:_\n```\nmsg.image = \"/data/image.jpeg\"\nmsg.image = \"https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg\"\n```\n## Document / `msg.document`\n\n_Disponible sur : Telegram_\n\n_Exemple:_\n```\nmsg.document = \"/data/doc.js\"\n```\n## Video / `msg.video`\n\n_Disponible sur : Telegram_\n\n_Exemple:_\n```\nmsg.video = \"/data/video.mp4\"\n```\n\n## Destinatation / `msg.dest`\nUn string qui contient la liste des services que vous désirez notifier séparer par des \"`;`\"\n\n_Exemple:_\n\n```\nmsg.dest = \"tel_clement;mail_clement;tts_80_hall\"  \n```\n\nLe message sera envoyé à :\n- tel_clement \n- mail_clement\n- tts_80_hall       \n\n### HTML5\nLa totalité des messages passe par ce système par défaut, pas besoin de l'ajouter en destination.\n\n### Discord \ndest doit commencer par `discord_`\n\n_Exemple:_\n```\nmsg.dest = \"discord_communaute_news;discord_maison_information;discord_maison_network\"  \n```\n\n### Home Assistant \ndest doit commencer par `tel_`\n\n_Exemple:_\n```\nmsg.dest = \"tel_clement;tel_papa;tel_maman\n```\n### Email \ndest doit commencer par `mail_`\n\n_Exemple:_\n```\nmsg.dest = \"mail_clement;mail_thomas\"\n```\n### Telegram\ndest doit commencer par `telegram_`\n\n_Exemple:_\n```\nmsg.dest = \"telegram_smarthome;telegram_familly\"\n```\n### TTS\ndest doit commencer par `tts_`\n\nFormat : `tts_{VOLUME}_{ENTITY_ID_DU_MEDIA_PLAYER}`\n\n_Exemple:_\n```\nmsg.dest = \"tts_80_hall\"\n```\n### SMS\ndest doit commencer par `sms_`\n\n_Exemple:_\n```\nmsg.dest = \"sms_clement\"\n```\n\n# Configuration\n\nLe subflow récupére sa configuration via la variable Global `notif.`\n\n> TTS n'a besoin d'aucune configuration particulière\n\n_Exemple:_\n\n```\nvar configuration = \n{\n    \"discord\": {\n        \"dest\": {\n            \"discord_communaute_news\": \"https://discord.com/api/webhooks/XXXXXXXXXXXXXXXX\",\n            \"discord_communaute_zwave\": \"https://discord.com/api/webhooks/YYYYYYYYYYYYYYYY\",\n            \"discord_communaute_diy\": \"https://discord.com/api/webhooks/ZZZZZZZZZZZZZZZZZ\",\n        }\n    },\n    \"home_assistant\": {\n        \"dest\": {\n            \"tel_clement\": \"mobile_app_oneplus_a6010\",\n            \"tel_nathalie\": \"mobile_app_oneplus_a5000\"\n        }\n    },\n    \"email\": {\n        \"dest\": {\n            \"mail_clement\": \"email1@domain.fr\",\n            \"mail_john\": \"email2@domain.fr\",\n            \"mail_bibi\": \"email3@domain.fr\"        \n        }\n    },\n    \"telegram\": {\n        \"dest\": {\n            \"telegram_smarthome\": \"ID1\",\n            \"telegram_bot\": \"ID2\"        \n        }\n    },\n    \"mattermost\": {\n        \"dest\": {\n            \"mattermost_home\" : \"https://mattermost.domain.fr/hooks/XXXXXXXXXXXXXXXXXXXXXXXXX\",\n            \"mattermost_volets\" : \"https://mattermost.domain.fr/hooks/YYYYYYYYYYYYYYYYYYYYYYYY\",\n        }\n    },\n    \"sms\": {\n        \"url\": \"http://192.168.1.1:8080/?action=sendSms&number=##SMSNUMBER##&message=##MESSAGE##\",\n        \"dest\": {\n            \"sms_clement\": \"06XXXXXXXXX\",\n            \"sms_nathalie\": \"06YYYYYYYYY\",\n        }\n    }\n}\nglobal.set(\"notif\",configuration)\n\nreturn msg;\n```\n\nPour vous aidez dans la configuration voici une function qui va vous permettres de pousser votre configuration à chaque deploiement.\n\nTout ce passe dans le node `Function`.\n\n\n```\n[\n    {\n        \"id\": \"bbda9cf1.ad8ba\",\n        \"type\": \"inject\",\n        \"z\": \"a9ae8a01.8a5bd8\",\n        \"name\": \"\",\n        \"props\": [\n            {\n                \"p\": \"payload\"\n            }\n        ],\n        \"repeat\": \"\",\n        \"crontab\": \"\",\n        \"once\": true,\n        \"onceDelay\": 0.1,\n        \"topic\": \"\",\n        \"payload\": \"\",\n        \"payloadType\": \"date\",\n        \"x\": 290,\n        \"y\": 260,\n        \"wires\": [\n            [\n                \"513d2c9.069c3d4\"\n            ]\n        ]\n    },\n    {\n        \"id\": \"dacca689.055138\",\n        \"type\": \"function\",\n        \"z\": \"a9ae8a01.8a5bd8\",\n        \"name\": \"Configurateur EXEMPLE\",\n        \"func\": \"var configuration = \\n{\\n    \\\"discord\\\": {\\n        \\\"dest\\\": {\\n            \\\"discord_communaute_news\\\": \\\"https://discord.com/api/webhooks/XXXXXXXXXXXXXXXX\\\",\\n            \\\"discord_communaute_zwave\\\": \\\"https://discord.com/api/webhooks/YYYYYYYYYYYYYYYY\\\",\\n            \\\"discord_communaute_diy\\\": \\\"https://discord.com/api/webhooks/ZZZZZZZZZZZZZZZZZ\\\",\\n        }\\n    },\\n    \\\"home_assistant\\\": {\\n        \\\"dest\\\": {\\n            \\\"tel_clement\\\": \\\"mobile_app_oneplus_a6010\\\",\\n            \\\"tel_nathalie\\\": \\\"mobile_app_oneplus_a5000\\\"\\n        }\\n    },\\n    \\\"email\\\": {\\n        \\\"dest\\\": {\\n            \\\"mail_clement\\\": \\\"email1@domain.fr\\\",\\n            \\\"mail_john\\\": \\\"email2@domain.fr\\\",\\n            \\\"mail_bibi\\\": \\\"email3@domain.fr\\\"        \\n        }\\n    },\\n    \\\"telegram\\\": {\\n        \\\"dest\\\": {\\n            \\\"telegram_smarthome\\\": \\\"ID1\\\",\\n            \\\"telegram_bot\\\": \\\"ID2\\\"        \\n        }\\n    },\\n    \\\"mattermost\\\": {\\n        \\\"dest\\\": {\\n            \\\"mattermost_home\\\" : \\\"https://mattermost.domain.fr/hooks/XXXXXXXXXXXXXXXXXXXXXXXXX\\\",\\n            \\\"mattermost_volets\\\" : \\\"https://mattermost.domain.fr/hooks/YYYYYYYYYYYYYYYYYYYYYYYY\\\",\\n        }\\n    },\\n    \\\"sms\\\": {\\n        \\\"url\\\": \\\"http://192.168.1.1:8080/?action=sendSms&number=##SMSNUMBER##&message=##MESSAGE##\\\",\\n        \\\"dest\\\": {\\n            \\\"sms_clement\\\": \\\"06XXXXXXXXX\\\",\\n            \\\"sms_nathalie\\\": \\\"06YYYYYYYYY\\\",\\n        }\\n    }\\n}\\nglobal.set(\\\"notif\\\",configuration)\\n\\nreturn msg;\",\n        \"outputs\": 1,\n        \"noerr\": 0,\n        \"initialize\": \"\",\n        \"finalize\": \"\",\n        \"x\": 700,\n        \"y\": 260,\n        \"wires\": [\n            []\n        ]\n    },\n    {\n        \"id\": \"513d2c9.069c3d4\",\n        \"type\": \"change\",\n        \"z\": \"a9ae8a01.8a5bd8\",\n        \"name\": \"Remove old config\",\n        \"rules\": [\n            {\n                \"t\": \"delete\",\n                \"p\": \"notif\",\n                \"pt\": \"global\"\n            }\n        ],\n        \"action\": \"\",\n        \"property\": \"\",\n        \"from\": \"\",\n        \"to\": \"\",\n        \"reg\": false,\n        \"x\": 470,\n        \"y\": 260,\n        \"wires\": [\n            [\n                \"dacca689.055138\"\n            ]\n        ]\n    }\n]\n```\n\nEt voici un exemple de flow d'input :\n\n```\n[{\"id\":\"66da3fb7.1e4ff\",\"type\":\"change\",\"z\":\"8a8a63c5.0c3c2\",\"name\":\"\",\"rules\":[{\"t\":\"set\",\"p\":\"title\",\"pt\":\"msg\",\"to\":\"Coucou\",\"tot\":\"str\"},{\"t\":\"set\",\"p\":\"message\",\"pt\":\"msg\",\"to\":\"Long Message\",\"tot\":\"str\"},{\"t\":\"set\",\"p\":\"short_message\",\"pt\":\"msg\",\"to\":\"Short Message\",\"tot\":\"str\"},{\"t\":\"set\",\"p\":\"dest\",\"pt\":\"msg\",\"to\":\"tel_clement;mail_clement\",\"tot\":\"str\"}],\"action\":\"\",\"property\":\"\",\"from\":\"\",\"to\":\"\",\"reg\":false,\"x\":740,\"y\":1880,\"wires\":[[\"7300bcc2.c97c34\"]]}]\n```",
-        "x": 300,
+        "x": 610,
         "y": 300,
         "wires": []
     },
@@ -666,7 +666,7 @@
         "output_location": "",
         "output_location_type": "none",
         "mustacheAltTags": false,
-        "x": 1590,
+        "x": 2010,
         "y": 260,
         "wires": [
             [
@@ -694,7 +694,7 @@
         "entity_location": "data",
         "override_data": "msg",
         "blockInputOverrides": false,
-        "x": 1960,
+        "x": 2380,
         "y": 260,
         "wires": [
             [
@@ -718,7 +718,7 @@
         "randomLast": "5",
         "randomUnits": "seconds",
         "drop": false,
-        "x": 1780,
+        "x": 2200,
         "y": 260,
         "wires": [
             [
@@ -744,7 +744,7 @@
         "output_location": "",
         "output_location_type": "none",
         "mustacheAltTags": false,
-        "x": 2390,
+        "x": 2810,
         "y": 260,
         "wires": [
             [
@@ -772,7 +772,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 2180,
+        "x": 2600,
         "y": 260,
         "wires": [
             [
@@ -800,7 +800,7 @@
         "entity_location": "data",
         "override_data": "msg",
         "blockInputOverrides": false,
-        "x": 1260,
+        "x": 1680,
         "y": 260,
         "wires": [
             [
@@ -819,7 +819,7 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 980,
+        "x": 1400,
         "y": 260,
         "wires": [
             [
@@ -845,7 +845,7 @@
         "output_location": "",
         "output_location_type": "none",
         "mustacheAltTags": false,
-        "x": 2540,
+        "x": 2960,
         "y": 260,
         "wires": [
             [
@@ -871,7 +871,7 @@
         "output_location": "",
         "output_location_type": "none",
         "mustacheAltTags": false,
-        "x": 3020,
+        "x": 3440,
         "y": 260,
         "wires": [
             [
@@ -895,7 +895,7 @@
         "randomLast": "5",
         "randomUnits": "seconds",
         "drop": false,
-        "x": 2700,
+        "x": 3120,
         "y": 260,
         "wires": [
             [
@@ -923,7 +923,7 @@
         "entity_location": "data",
         "override_data": "msg",
         "blockInputOverrides": false,
-        "x": 2840,
+        "x": 3260,
         "y": 260,
         "wires": [
             [
@@ -952,7 +952,7 @@
         "output_location": "",
         "output_location_type": "none",
         "mustacheAltTags": false,
-        "x": 3210,
+        "x": 3630,
         "y": 260,
         "wires": [
             [
@@ -969,7 +969,7 @@
         "links": [
             "e5fe9d8c.96704"
         ],
-        "x": 3020,
+        "x": 3440,
         "y": 220,
         "wires": [],
         "l": true
@@ -983,7 +983,7 @@
         "links": [
             "ca608072.a3c81"
         ],
-        "x": 2530,
+        "x": 2950,
         "y": 220,
         "wires": [
             [
@@ -1015,7 +1015,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 1410,
+        "x": 1830,
         "y": 260,
         "wires": [
             [
@@ -1055,7 +1055,7 @@
         "propout": "message",
         "object": "msg",
         "objectout": "msg",
-        "x": 1210,
+        "x": 1630,
         "y": 100,
         "wires": [
             [
@@ -1092,7 +1092,7 @@
         "propout": "message",
         "object": "msg",
         "objectout": "msg",
-        "x": 1170,
+        "x": 1590,
         "y": 380,
         "wires": [
             [
@@ -1129,7 +1129,7 @@
         "propout": "message",
         "object": "msg",
         "objectout": "msg",
-        "x": 1130,
+        "x": 1550,
         "y": 260,
         "wires": [
             [
@@ -1148,7 +1148,7 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1610,
+        "x": 2030,
         "y": 100,
         "wires": [
             []
@@ -1165,7 +1165,7 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1830,
+        "x": 2250,
         "y": 380,
         "wires": [
             []
@@ -1182,7 +1182,7 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1830,
+        "x": 2250,
         "y": 500,
         "wires": [
             []
@@ -1199,7 +1199,7 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 3370,
+        "x": 3790,
         "y": 260,
         "wires": [
             []
@@ -1216,7 +1216,7 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 2090,
+        "x": 2510,
         "y": 860,
         "wires": [
             []
@@ -1233,7 +1233,7 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 990,
+        "x": 1410,
         "y": 820,
         "wires": [
             [
@@ -1255,7 +1255,7 @@
         "persist": false,
         "proxy": "",
         "authType": "",
-        "x": 1640,
+        "x": 2060,
         "y": 820,
         "wires": [
             [
@@ -1274,7 +1274,7 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1420,
+        "x": 1840,
         "y": 820,
         "wires": [
             [
@@ -1291,7 +1291,7 @@
         "property": "data",
         "action": "",
         "pretty": false,
-        "x": 1210,
+        "x": 1630,
         "y": 820,
         "wires": [
             [
@@ -1310,7 +1310,7 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 2090,
+        "x": 2510,
         "y": 680,
         "wires": [
             []
@@ -1327,7 +1327,7 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 990,
+        "x": 1410,
         "y": 640,
         "wires": [
             [
@@ -1349,7 +1349,7 @@
         "persist": false,
         "proxy": "",
         "authType": "",
-        "x": 1640,
+        "x": 2060,
         "y": 640,
         "wires": [
             [
@@ -1368,7 +1368,7 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1420,
+        "x": 1840,
         "y": 640,
         "wires": [
             [
@@ -1385,7 +1385,7 @@
         "property": "data",
         "action": "",
         "pretty": false,
-        "x": 1210,
+        "x": 1630,
         "y": 640,
         "wires": [
             [
@@ -1404,7 +1404,7 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 990,
+        "x": 1410,
         "y": 1100,
         "wires": [
             [
@@ -1444,7 +1444,7 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1670,
+        "x": 2090,
         "y": 1100,
         "wires": [
             []
@@ -1466,7 +1466,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 1250,
+        "x": 1670,
         "y": 960,
         "wires": [
             [
@@ -1490,7 +1490,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 1240,
+        "x": 1660,
         "y": 1000,
         "wires": [
             [
@@ -1514,7 +1514,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 1240,
+        "x": 1660,
         "y": 1040,
         "wires": [
             [
@@ -1538,7 +1538,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 1240,
+        "x": 1660,
         "y": 1080,
         "wires": [
             [
@@ -1553,7 +1553,8 @@
         "g": "286dba59.7ed416",
         "name": "",
         "bot": "930eda8b.cf74a8",
-        "x": 1510,
+        "outputs": 1,
+        "x": 1930,
         "y": 1100,
         "wires": [
             [
@@ -1577,7 +1578,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 1240,
+        "x": 1660,
         "y": 1200,
         "wires": [
             [
@@ -1601,7 +1602,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 1250,
+        "x": 1670,
         "y": 1120,
         "wires": [
             [
@@ -1625,7 +1626,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 1250,
+        "x": 1670,
         "y": 1160,
         "wires": [
             [
@@ -1649,7 +1650,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 1240,
+        "x": 1660,
         "y": 1240,
         "wires": [
             [
@@ -1666,7 +1667,7 @@
         "links": [
             "d1db25d0.686ce8"
         ],
-        "x": 2280,
+        "x": 2700,
         "y": 600,
         "wires": [],
         "l": true
@@ -1680,7 +1681,7 @@
         "links": [
             "e9b7f1e.7b2dc1"
         ],
-        "x": 1250,
+        "x": 1670,
         "y": 600,
         "wires": [
             [
@@ -1698,7 +1699,7 @@
         "links": [
             "2b204825.ddc228"
         ],
-        "x": 2290,
+        "x": 2710,
         "y": 780,
         "wires": [],
         "l": true
@@ -1712,7 +1713,7 @@
         "links": [
             "6a81a4ef.2d8d9c"
         ],
-        "x": 1230,
+        "x": 1650,
         "y": 780,
         "wires": [
             [
@@ -1737,7 +1738,7 @@
         "randomLast": "5",
         "randomUnits": "seconds",
         "drop": false,
-        "x": 2100,
+        "x": 2520,
         "y": 600,
         "wires": [
             [
@@ -1761,7 +1762,7 @@
         "randomLast": "5",
         "randomUnits": "seconds",
         "drop": false,
-        "x": 2100,
+        "x": 2520,
         "y": 780,
         "wires": [
             [
@@ -1780,7 +1781,7 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1820,
+        "x": 2240,
         "y": 640,
         "wires": [
             [
@@ -1807,7 +1808,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 1950,
+        "x": 2370,
         "y": 640,
         "wires": [
             [
@@ -1829,7 +1830,7 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1820,
+        "x": 2240,
         "y": 820,
         "wires": [
             [
@@ -1856,7 +1857,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 1950,
+        "x": 2370,
         "y": 820,
         "wires": [
             [
@@ -1881,7 +1882,7 @@
         "persist": false,
         "proxy": "",
         "authType": "",
-        "x": 1200,
+        "x": 1620,
         "y": 1350,
         "wires": [
             [
@@ -1900,7 +1901,7 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1350,
+        "x": 1770,
         "y": 1350,
         "wires": [
             []
@@ -1917,7 +1918,7 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 990,
+        "x": 1410,
         "y": 1350,
         "wires": [
             [
@@ -1939,7 +1940,7 @@
         "persist": false,
         "proxy": "",
         "authType": "",
-        "x": 1190,
+        "x": 1610,
         "y": 1460,
         "wires": [
             [
@@ -1958,7 +1959,7 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1350,
+        "x": 1770,
         "y": 1460,
         "wires": [
             []
@@ -1975,11 +1976,92 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 990,
+        "x": 1410,
         "y": 1460,
         "wires": [
             [
                 "fd1b76aa.ef0938"
+            ]
+        ]
+    },
+    {
+        "id": "b05aae4b.366cc",
+        "type": "http in",
+        "z": "711f44dc.b8379c",
+        "name": "",
+        "url": "/notif",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 700,
+        "y": 680,
+        "wires": [
+            [
+                "542e8255.5641bc",
+                "86c856c4.a9d068"
+            ]
+        ]
+    },
+    {
+        "id": "542e8255.5641bc",
+        "type": "function",
+        "z": "711f44dc.b8379c",
+        "name": "",
+        "func": "msg = msg.payload;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 860,
+        "y": 680,
+        "wires": [
+            [
+                "11d2840b.c4c60c"
+            ]
+        ]
+    },
+    {
+        "id": "bc0689a.817ab78",
+        "type": "http response",
+        "z": "711f44dc.b8379c",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 1000,
+        "y": 730,
+        "wires": []
+    },
+    {
+        "id": "86c856c4.a9d068",
+        "type": "change",
+        "z": "711f44dc.b8379c",
+        "name": "Return",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\"return\":true}",
+                "tot": "json"
+            },
+            {
+                "t": "set",
+                "p": "statusCode",
+                "pt": "msg",
+                "to": "200",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 860,
+        "y": 730,
+        "wires": [
+            [
+                "bc0689a.817ab78"
             ]
         ]
     },
