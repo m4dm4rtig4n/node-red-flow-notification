@@ -1,6 +1,6 @@
 [
     {
-        "id": "711f44dc.b8379c",
+        "id": "d37c0d33d99013c6",
         "type": "subflow",
         "name": "Notification",
         "info": "",
@@ -11,13 +11,14 @@
                 "y": 580,
                 "wires": [
                     {
-                        "id": "bb6496b6.c5fb38"
+                        "id": "d3a95e4560d29aac"
                     }
                 ]
             }
         ],
         "out": [],
         "env": [],
+        "meta": {},
         "color": "#4A88C0",
         "icon": "font-awesome/fa-comment",
         "status": {
@@ -25,16 +26,16 @@
             "y": 100,
             "wires": [
                 {
-                    "id": "4e1a58dc.5faf88",
+                    "id": "05619cd69558e775",
                     "port": 0
                 }
             ]
         }
     },
     {
-        "id": "286dba59.7ed416",
+        "id": "ae87ffd25e9cd3b0",
         "type": "group",
-        "z": "711f44dc.b8379c",
+        "z": "d37c0d33d99013c6",
         "name": "Telegram",
         "style": {
             "stroke": "#000000",
@@ -43,17 +44,17 @@
             "color": "#000000"
         },
         "nodes": [
-            "fe563f3b.27a4",
-            "a5718a48.8221c8",
-            "a1937b5e.f10f08",
-            "74de5d62.659ac4",
-            "6bccc1cf.04292",
-            "ba9c06f3.258228",
-            "bb563cb0.de18d",
-            "8098137f.117d6",
-            "fdc2c34.6b5b44",
-            "4adb3e12.c6031",
-            "8c1c7eae.f4fe8"
+            "173d4f04beeb84da",
+            "7fe19a6ebf669a7d",
+            "c0d566657388ab2a",
+            "ac83247143aaa79b",
+            "590e4c6573f9bc59",
+            "cb7876ea460b105a",
+            "b266f27bb45bd72b",
+            "415c4f41a73be317",
+            "a64d433f5b21f1b4",
+            "638c5b2ccb04b9cc",
+            "83209834b079ecd9"
         ],
         "x": 1294,
         "y": 919,
@@ -61,9 +62,9 @@
         "h": 362
     },
     {
-        "id": "3ba17f01.1ad71",
+        "id": "3723944e52437383",
         "type": "group",
-        "z": "711f44dc.b8379c",
+        "z": "d37c0d33d99013c6",
         "name": "TTS",
         "style": {
             "stroke": "#000000",
@@ -72,23 +73,23 @@
             "color": "#000000"
         },
         "nodes": [
-            "3804914.3e0396e",
-            "9be43a39.86fb38",
-            "50d5d992.12f778",
-            "5d1f7d2d.00d694",
-            "ce050387.d13e9",
-            "eaee88f3.fe9138",
-            "45b1fc9f.afafc4",
-            "b8f7a36e.3e1aa",
-            "5214f35f.538f4c",
-            "3ed2b5a9.244f3a",
-            "5d7f8264.16666c",
-            "1af7d6f3.9aaa19",
-            "ca608072.a3c81",
-            "e5fe9d8c.96704",
-            "60a2789f.1842a8",
-            "4bbdd1c0.ff6a7",
-            "18cbe457.1dfa6c"
+            "0a3f80c5a104cea6",
+            "371bc920d7c02558",
+            "e40433584d22f707",
+            "d26f34de7d782d78",
+            "6fed6ed9102976f2",
+            "185c01d9a8420fbe",
+            "c29950d5d6bbe380",
+            "b4e022117523905e",
+            "84d0f2933aae945a",
+            "9f095dfa99f0027b",
+            "a8dde3ef98ef2162",
+            "420b07fed09c3241",
+            "ee345b12135868f0",
+            "b48bc09372740241",
+            "0d8ad26a693f9222",
+            "692c4115ee79c566",
+            "f93ac4d5ef391e4b"
         ],
         "x": 1294,
         "y": 179,
@@ -96,9 +97,9 @@
         "h": 122
     },
     {
-        "id": "53f4a8db.b4d4",
+        "id": "3f12f7dfcb5c7f40",
         "type": "group",
-        "z": "711f44dc.b8379c",
+        "z": "d37c0d33d99013c6",
         "name": "SMS",
         "style": {
             "stroke": "#000000",
@@ -107,9 +108,9 @@
             "color": "#000000"
         },
         "nodes": [
-            "75261914.04f268",
-            "8dd71a85.f2d438",
-            "a3064f17.e8a538"
+            "e62922d05357197a",
+            "f17f05154119affb",
+            "d3901c18ac0bf9b8"
         ],
         "x": 1294,
         "y": 1309,
@@ -117,9 +118,9 @@
         "h": 82
     },
     {
-        "id": "57b5e8a3.37d5e8",
+        "id": "9636cd574c04a5fa",
         "type": "group",
-        "z": "711f44dc.b8379c",
+        "z": "d37c0d33d99013c6",
         "name": "E-Mail",
         "style": {
             "stroke": "#000000",
@@ -128,10 +129,10 @@
             "color": "#000000"
         },
         "nodes": [
-            "ecea9947.6e5848",
-            "e8221.6da3addf8",
-            "bb7809ff.a41588",
-            "7bedaa16.93eda4"
+            "be2e877be1844f05",
+            "4284c473b0ee22fe",
+            "d1607f5057184570",
+            "f27feee1bed2108c"
         ],
         "x": 1294,
         "y": 459,
@@ -139,9 +140,9 @@
         "h": 82
     },
     {
-        "id": "5cda64bd.38daec",
+        "id": "109dfab8a46368d1",
         "type": "group",
-        "z": "711f44dc.b8379c",
+        "z": "d37c0d33d99013c6",
         "name": "HTML5",
         "style": {
             "stroke": "#000000",
@@ -150,10 +151,10 @@
             "color": "#000000"
         },
         "nodes": [
-            "8b310362.7bd2d",
-            "4fba970c.85c0c8",
-            "81b3a930.d07b08",
-            "4e1a58dc.5faf88"
+            "4a83ce0a96c6a5f7",
+            "101f0126c8c878d5",
+            "be1bbea6bf3d42ed",
+            "05619cd69558e775"
         ],
         "x": 1294,
         "y": 59,
@@ -161,9 +162,9 @@
         "h": 82
     },
     {
-        "id": "64bee8ef.b70198",
+        "id": "6e8c58c7b970fef2",
         "type": "group",
-        "z": "711f44dc.b8379c",
+        "z": "d37c0d33d99013c6",
         "name": "Mattermost",
         "style": {
             "stroke": "#000000",
@@ -172,16 +173,16 @@
             "color": "#000000"
         },
         "nodes": [
-            "dc0af305.08c5c",
-            "1fd1b55c.8aa76b",
-            "865195e1.9bc408",
-            "320a88d2.7cb0a8",
-            "5b2efbf4.ae0024",
-            "6a81a4ef.2d8d9c",
-            "2b204825.ddc228",
-            "8275ade.a46ba5",
-            "5cef7e36.fb01f",
-            "8e5741c9.438b9"
+            "be48507a4c85f8c8",
+            "170251cb68522182",
+            "90a2d0991cb7f055",
+            "66128b8eaf425a63",
+            "0b1fb84613cd8c84",
+            "f047234e72f5e847",
+            "336d65f4487fe26d",
+            "9e69575b8c717131",
+            "203c03dbc7a29204",
+            "b7f0b182222f387c"
         ],
         "x": 1294,
         "y": 739,
@@ -189,9 +190,9 @@
         "h": 162
     },
     {
-        "id": "7e7775b.f8ebb8c",
+        "id": "b320a76202a15be4",
         "type": "group",
-        "z": "711f44dc.b8379c",
+        "z": "d37c0d33d99013c6",
         "name": "Awtrix",
         "style": {
             "label": true,
@@ -200,9 +201,9 @@
             "color": "#000000"
         },
         "nodes": [
-            "fd1b76aa.ef0938",
-            "39428588.44afda",
-            "4f3f2917.7e3108"
+            "b786f8be85ca161f",
+            "849f6c694d844931",
+            "86851be5233ceb32"
         ],
         "x": 1294,
         "y": 1419,
@@ -210,9 +211,9 @@
         "h": 82
     },
     {
-        "id": "ecdc435a.d458e",
+        "id": "03114f258232250f",
         "type": "group",
-        "z": "711f44dc.b8379c",
+        "z": "d37c0d33d99013c6",
         "name": "Discord",
         "style": {
             "stroke": "#000000",
@@ -221,16 +222,16 @@
             "color": "#000000"
         },
         "nodes": [
-            "abcea9a6.402238",
-            "7aee817f.03b6a",
-            "c8f2b71d.230328",
-            "5e87cf54.db54",
-            "e02544ec.c0c9c8",
-            "e9b7f1e.7b2dc1",
-            "d1db25d0.686ce8",
-            "1c900d5e.09b683",
-            "e896886c.c45658",
-            "2e838fa7.9cc17"
+            "5c920f3750f2b506",
+            "4d89bc43b7e15233",
+            "c88c9092e10df86e",
+            "7e44abab9b51763f",
+            "e2f8d2c29c3fac46",
+            "16322f181306e08e",
+            "827db2d7a25f0a2d",
+            "b6197462ef40847b",
+            "acf60e8cbdbe191d",
+            "85a509fd6b70cb4e"
         ],
         "x": 1294,
         "y": 559,
@@ -238,9 +239,9 @@
         "h": 162
     },
     {
-        "id": "ecef5432.e60ef8",
+        "id": "824f955238e88efc",
         "type": "group",
-        "z": "711f44dc.b8379c",
+        "z": "d37c0d33d99013c6",
         "name": "Home Assistant",
         "style": {
             "stroke": "#000000",
@@ -249,11 +250,11 @@
             "color": "#000000"
         },
         "nodes": [
-            "21b0610e.4e7cbe",
-            "4fa3a02b.4b12f",
-            "868b8ddb.892fa",
-            "24afc5e8.8aadfa",
-            "e9da4b4c.c20068"
+            "db6dd1c33377c912",
+            "07e360d06a3f89df",
+            "36b1bcfcaef49574",
+            "1d62ad721aa31cb7",
+            "34dba90d638edb56"
         ],
         "x": 1294,
         "y": 339,
@@ -261,9 +262,31 @@
         "h": 82
     },
     {
-        "id": "11d2840b.c4c60c",
+        "id": "5997e3e14331eedd",
+        "type": "group",
+        "z": "d37c0d33d99013c6",
+        "name": "CallMeBot",
+        "style": {
+            "stroke": "#000000",
+            "fill": "#92d04f",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "c209b185326fa55d",
+            "c84070fdde40580e",
+            "4b869e8725b611ba"
+        ],
+        "env": [],
+        "x": 1294,
+        "y": 1539,
+        "w": 612,
+        "h": 82
+    },
+    {
+        "id": "b45bfdf42c36c673",
         "type": "switch",
-        "z": "711f44dc.b8379c",
+        "z": "d37c0d33d99013c6",
         "name": "Redirect to dest",
         "property": "dest",
         "propertyType": "msg",
@@ -312,40 +335,48 @@
                 "t": "cont",
                 "v": "awtrix_",
                 "vt": "str"
+            },
+            {
+                "t": "cont",
+                "v": "callmebot_",
+                "vt": "str"
             }
         ],
         "checkall": "true",
         "repair": false,
-        "outputs": 9,
+        "outputs": 10,
         "x": 1130,
         "y": 580,
         "wires": [
             [
-                "4fba970c.85c0c8"
+                "101f0126c8c878d5"
             ],
             [
-                "45b1fc9f.afafc4"
+                "c29950d5d6bbe380"
             ],
             [
-                "4fa3a02b.4b12f"
+                "07e360d06a3f89df"
             ],
             [
-                "e8221.6da3addf8"
+                "4284c473b0ee22fe"
             ],
             [
-                "7aee817f.03b6a"
+                "4d89bc43b7e15233"
             ],
             [
-                "1fd1b55c.8aa76b"
+                "170251cb68522182"
             ],
             [
-                "fe563f3b.27a4"
+                "173d4f04beeb84da"
             ],
             [
-                "a3064f17.e8a538"
+                "d3901c18ac0bf9b8"
             ],
             [
-                "4f3f2917.7e3108"
+                "86851be5233ceb32"
+            ],
+            [
+                "c209b185326fa55d"
             ]
         ],
         "outputLabels": [
@@ -357,14 +388,15 @@
             "",
             "",
             "",
+            "",
             ""
         ]
     },
     {
-        "id": "8b310362.7bd2d",
+        "id": "4a83ce0a96c6a5f7",
         "type": "api-call-service",
-        "z": "711f44dc.b8379c",
-        "g": "5cda64bd.38daec",
+        "z": "d37c0d33d99013c6",
+        "g": "109dfab8a46368d1",
         "name": "html5",
         "server": "7f33d7bb.9361a8",
         "version": 3,
@@ -382,15 +414,15 @@
         "y": 100,
         "wires": [
             [
-                "4e1a58dc.5faf88"
+                "05619cd69558e775"
             ]
         ]
     },
     {
-        "id": "4fba970c.85c0c8",
+        "id": "101f0126c8c878d5",
         "type": "function",
-        "z": "711f44dc.b8379c",
-        "g": "5cda64bd.38daec",
+        "z": "d37c0d33d99013c6",
+        "g": "109dfab8a46368d1",
         "name": "Check Short Message",
         "func": "if (msg.short_message !== 'undefined' ) {\n    msg.short_message = msg.message;\n}\nreturn msg;\n",
         "outputs": 1,
@@ -401,15 +433,15 @@
         "y": 100,
         "wires": [
             [
-                "81b3a930.d07b08"
+                "be1bbea6bf3d42ed"
             ]
         ]
     },
     {
-        "id": "21b0610e.4e7cbe",
+        "id": "db6dd1c33377c912",
         "type": "function",
-        "z": "711f44dc.b8379c",
-        "g": "ecef5432.e60ef8",
+        "z": "d37c0d33d99013c6",
+        "g": "824f955238e88efc",
         "name": "Get Configuration",
         "func": "dest = msg.dest ;\nconfig = global.get(\"notif.home_assistant.dest.\"+dest) || 'undefined'\nmsg.entity_id = config;\n\nask = []\nmsg.payload = {};\nmsg.payload.data = {}\nif (msg.ask != undefined) {\n    for(let key in msg.ask.data) {\n        uri = msg.ask.data[key];\n        ask.push({\n            action: msg.ask.action,\n            title: key,\n            uri: ''+uri+'',            \n        })\n    }\n\n    msg.payload.data.data = {\n        actions: ask\n    };\n}\n\nmsg.payload.data.message = msg.message;\n\n\nif(msg.title != undefined) {\n    msg.payload.data.title = msg.title;    \n}\n\nreturn msg;",
         "outputs": 1,
@@ -421,15 +453,15 @@
         "y": 380,
         "wires": [
             [
-                "868b8ddb.892fa"
+                "36b1bcfcaef49574"
             ]
         ]
     },
     {
-        "id": "4fa3a02b.4b12f",
+        "id": "07e360d06a3f89df",
         "type": "function",
-        "z": "711f44dc.b8379c",
-        "g": "ecef5432.e60ef8",
+        "z": "d37c0d33d99013c6",
+        "g": "824f955238e88efc",
         "name": "Check Short Message",
         "func": "if (msg.short_message !== 'undefined' ) {\n    msg.short_message = msg.message;\n}\nreturn msg;\n",
         "outputs": 1,
@@ -441,15 +473,15 @@
         "y": 380,
         "wires": [
             [
-                "24afc5e8.8aadfa"
+                "1d62ad721aa31cb7"
             ]
         ]
     },
     {
-        "id": "868b8ddb.892fa",
+        "id": "36b1bcfcaef49574",
         "type": "api-call-service",
-        "z": "711f44dc.b8379c",
-        "g": "ecef5432.e60ef8",
+        "z": "d37c0d33d99013c6",
+        "g": "824f955238e88efc",
         "name": "Home Assistant ",
         "server": "7f33d7bb.9361a8",
         "version": 3,
@@ -467,15 +499,15 @@
         "y": 380,
         "wires": [
             [
-                "e9da4b4c.c20068"
+                "34dba90d638edb56"
             ]
         ]
     },
     {
-        "id": "ecea9947.6e5848",
+        "id": "be2e877be1844f05",
         "type": "function",
-        "z": "711f44dc.b8379c",
-        "g": "57b5e8a3.37d5e8",
+        "z": "d37c0d33d99013c6",
+        "g": "9636cd574c04a5fa",
         "name": "Get Configuration",
         "func": "dest = msg.dest ;\nconfig = global.get(\"notif.email.dest.\"+dest) || 'undefined'\nmsg.to = config;\nreturn msg;",
         "outputs": 1,
@@ -486,16 +518,16 @@
         "y": 500,
         "wires": [
             [
-                "bb7809ff.a41588",
-                "7bedaa16.93eda4"
+                "d1607f5057184570",
+                "f27feee1bed2108c"
             ]
         ]
     },
     {
-        "id": "e8221.6da3addf8",
+        "id": "4284c473b0ee22fe",
         "type": "change",
-        "z": "711f44dc.b8379c",
-        "g": "57b5e8a3.37d5e8",
+        "z": "d37c0d33d99013c6",
+        "g": "9636cd574c04a5fa",
         "name": "Message2Payload",
         "rules": [
             {
@@ -515,15 +547,15 @@
         "y": 500,
         "wires": [
             [
-                "ecea9947.6e5848"
+                "be2e877be1844f05"
             ]
         ]
     },
     {
-        "id": "bb7809ff.a41588",
+        "id": "d1607f5057184570",
         "type": "e-mail",
-        "z": "711f44dc.b8379c",
-        "g": "57b5e8a3.37d5e8",
+        "z": "d37c0d33d99013c6",
+        "g": "9636cd574c04a5fa",
         "server": "smtp.eu.mailgun.org",
         "port": "587",
         "secure": false,
@@ -535,19 +567,19 @@
         "wires": []
     },
     {
-        "id": "6d93ed07.b83094",
+        "id": "d7f982b15eaac422",
         "type": "comment",
-        "z": "711f44dc.b8379c",
+        "z": "d37c0d33d99013c6",
         "name": "========== DOCUMENTATION EN ==========",
-        "info": "# Information\n\nThis flow aims to centralize all notifications.\n\nActualy, it's work with :\n- HTML5 (by Home Assistant)\n- Discord\n- Telegram\n- Email\n- TTS\n- Home Assistant (Mobile App)\n- SMS by HTTP\n\n# Requirement\n\n- node-red-contrib-chatbot\n- node-red-contrib-chatbot-discord\n- node-red-contrib-string\n- node-red-contrib-home-assistant-websocket\n- node-red-node-email\n\n\n# Input\n\nIn this exemple, you can find all inut :\n\n```\nmsg.title = \"Home Assistant - New version available\"\nmsg.dest = \"tel_clement;mail_clement;tts_80_hall\"  \nmsg.message = \"Home Assistant : New version available => 0.113.0 \\n\nhttps://github.com/home-assistant/core/releases/tag/0.113.0\"\nmsg.short_message = \"Home Assistant : New version available (0.113.0)\"\nmsg.image = \"/data/image.jpeg\"\nmsg.document = \"/data/doc.js\"\nmsg.video = \"/data/video.mp4\"\n```\n> All inputs are not necessarily compatible with all services\n\n\n## Title / `msg.title`\n\n_Available on : Email_\n\nTitle use only for email\n\n_Exemple:_\n\n```\nmsg.title = \"Home Assistant - New version available\"\n```\n\n## Message / `msg.message`\n\n_Available on : Email / Telegram / Discord_\n\nLong version of message\n\n_Exemple:_\n\n```\nmsg.message = \"Home Assistant : New version available => 0.113.0 \\n https://github.com/home-assistant/core/releases/tag/0.113.0\"\n```\n\n## Short Message / `msg.short_message`\n_Available on : HTML5 / Home Assistant_\n\nShort Message use in \"popup'\n\n_Exemple:_\n```\nmsg.short_message = \"Home Assistant : New version available (0.113.0)\"\n```\n\n**WARNING : Message are Trim & `\\n` replace by space**\n> => If not set, i take msg.message.\n  \n## Image / `msg.image`\n_Available on : Telegram_\n\n_Exemple:_\n```\nmsg.image = \"/data/image.jpeg\"\nmsg.image = \"https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg\"\n```\n## Document / `msg.document`\n_Available on : Telegram_\n_Exemple:_\n```\nmsg.document = \"/data/doc.js\"\n```\n## Video / `msg.video`\n_Available on : Telegram_\n_Exemple:_\n```\nmsg.video = \"/data/video.mp4\"\n```\n\n## Destination / `msg.dest`\n\n_Available on : All_\n\nIs a string to contains all destination separated by \"`;`\"\n\n_Exemple:_\n\n```\nmsg.dest = \"tel_clement;mail_clement;tts_80_hall\"  \n```\n\nMessage send to :\n- tel_clement \n- mail_clement\n- tts_80_hall       \n\n### HTML5\nThis dest is always notify, you don't need to add this dest.\n\n### Discord \nDest must start by `discord_`\n\n_Exemple:_\n```\nmsg.dest = \"discord_communaute_news;discord_maison_information;discord_maison_network\"  \n```\n\n### Home Assistant \nDest must start by `tel_`\n\n_Exemple:_\n```\nmsg.dest = \"tel_clement;tel_papa;tel_maman\n```\n### Email \nDest must start by `mail_`\n\n_Exemple:_\n```\nmsg.dest = \"mail_clement;mail_thomas\"\n```\n### Telegram\nDest must start by `telegram_`\n\n_Exemple:_\n```\nmsg.dest = \"telegram_smarthome;telegram_familly\"\n```\n### TTS\nDest must start by `tts_`\n\nFormat : `tts_{VOLUME}_{ENTITY_ID_OF_MEDIA_PLAYER}`\n\n_Exemple:_\n```\nmsg.dest = \"tts_80_hall\"\n```\n\n### SMS\nDest must start by `sms_`\n\n\n_Exemple:_\n```\nmsg.dest = \"sms_clement\"\n```\n\n# Configuration\nSubflow get configuration in global variable `notif.`\n> TTS no need configuration\n\n_Exemple:_\n\n```\nvar configuration = \n{\n    \"discord\": {\n        \"dest\": {\n            \"discord_communaute_news\": \"https://discord.com/api/webhooks/XXXXXXXXXXXXXXXX\",\n            \"discord_communaute_zwave\": \"https://discord.com/api/webhooks/YYYYYYYYYYYYYYYY\",\n            \"discord_communaute_diy\": \"https://discord.com/api/webhooks/ZZZZZZZZZZZZZZZZZ\",\n        }\n    },\n    \"home_assistant\": {\n        \"dest\": {\n            \"tel_clement\": \"mobile_app_oneplus_a6010\",\n            \"tel_nathalie\": \"mobile_app_oneplus_a5000\"\n        }\n    },\n    \"email\": {\n        \"dest\": {\n            \"mail_clement\": \"email1@domain.fr\",\n            \"mail_john\": \"email2@domain.fr\",\n            \"mail_bibi\": \"email3@domain.fr\"        \n        }\n    },\n    \"telegram\": {\n        \"dest\": {\n            \"telegram_smarthome\": \"ID1\",\n            \"telegram_bot\": \"ID2\"        \n        }\n    },\n    \"mattermost\": {\n        \"dest\": {\n            \"mattermost_home\" : \"https://mattermost.domain.fr/hooks/XXXXXXXXXXXXXXXXXXXXXXXXX\",\n            \"mattermost_volets\" : \"https://mattermost.domain.fr/hooks/YYYYYYYYYYYYYYYYYYYYYYYY\",\n        }\n    },\n    \"sms\": {\n        \"url\": \"http://192.168.1.1:8080/?action=sendSms&number=##SMSNUMBER##&message=##MESSAGE##\",\n        \"dest\": {\n            \"sms_clement\": \"06XXXXXXXXX\",\n            \"sms_nathalie\": \"06YYYYYYYYY\",\n        }\n    }\n}\nglobal.set(\"notif\",configuration)\n\nreturn msg;\n```\n\nYou can take this flow to help you to configure sublow :) \n\n\n```\n[\n    {\n        \"id\": \"bbda9cf1.ad8ba\",\n        \"type\": \"inject\",\n        \"z\": \"a9ae8a01.8a5bd8\",\n        \"name\": \"\",\n        \"props\": [\n            {\n                \"p\": \"payload\"\n            }\n        ],\n        \"repeat\": \"\",\n        \"crontab\": \"\",\n        \"once\": true,\n        \"onceDelay\": 0.1,\n        \"topic\": \"\",\n        \"payload\": \"\",\n        \"payloadType\": \"date\",\n        \"x\": 290,\n        \"y\": 260,\n        \"wires\": [\n            [\n                \"513d2c9.069c3d4\"\n            ]\n        ]\n    },\n    {\n        \"id\": \"dacca689.055138\",\n        \"type\": \"function\",\n        \"z\": \"a9ae8a01.8a5bd8\",\n        \"name\": \"Configurateur EXEMPLE\",\n        \"func\": \"var configuration = \\n{\\n    \\\"discord\\\": {\\n        \\\"dest\\\": {\\n            \\\"discord_communaute_news\\\": \\\"https://discord.com/api/webhooks/XXXXXXXXXXXXXXXX\\\",\\n            \\\"discord_communaute_zwave\\\": \\\"https://discord.com/api/webhooks/YYYYYYYYYYYYYYYY\\\",\\n            \\\"discord_communaute_diy\\\": \\\"https://discord.com/api/webhooks/ZZZZZZZZZZZZZZZZZ\\\",\\n        }\\n    },\\n    \\\"home_assistant\\\": {\\n        \\\"dest\\\": {\\n            \\\"tel_clement\\\": \\\"mobile_app_oneplus_a6010\\\",\\n            \\\"tel_nathalie\\\": \\\"mobile_app_oneplus_a5000\\\"\\n        }\\n    },\\n    \\\"email\\\": {\\n        \\\"dest\\\": {\\n            \\\"mail_clement\\\": \\\"email1@domain.fr\\\",\\n            \\\"mail_john\\\": \\\"email2@domain.fr\\\",\\n            \\\"mail_bibi\\\": \\\"email3@domain.fr\\\"        \\n        }\\n    },\\n    \\\"telegram\\\": {\\n        \\\"dest\\\": {\\n            \\\"telegram_smarthome\\\": \\\"ID1\\\",\\n            \\\"telegram_bot\\\": \\\"ID2\\\"        \\n        }\\n    },\\n    \\\"mattermost\\\": {\\n        \\\"dest\\\": {\\n            \\\"mattermost_home\\\" : \\\"https://mattermost.domain.fr/hooks/XXXXXXXXXXXXXXXXXXXXXXXXX\\\",\\n            \\\"mattermost_volets\\\" : \\\"https://mattermost.domain.fr/hooks/YYYYYYYYYYYYYYYYYYYYYYYY\\\",\\n        }\\n    },\\n    \\\"sms\\\": {\\n        \\\"url\\\": \\\"http://192.168.1.1:8080/?action=sendSms&number=##SMSNUMBER##&message=##MESSAGE##\\\",\\n        \\\"dest\\\": {\\n            \\\"sms_clement\\\": \\\"06XXXXXXXXX\\\",\\n            \\\"sms_nathalie\\\": \\\"06YYYYYYYYY\\\",\\n        }\\n    }\\n}\\nglobal.set(\\\"notif\\\",configuration)\\n\\nreturn msg;\",\n        \"outputs\": 1,\n        \"noerr\": 0,\n        \"initialize\": \"\",\n        \"finalize\": \"\",\n        \"x\": 700,\n        \"y\": 260,\n        \"wires\": [\n            []\n        ]\n    },\n    {\n        \"id\": \"513d2c9.069c3d4\",\n        \"type\": \"change\",\n        \"z\": \"a9ae8a01.8a5bd8\",\n        \"name\": \"Remove old config\",\n        \"rules\": [\n            {\n                \"t\": \"delete\",\n                \"p\": \"notif\",\n                \"pt\": \"global\"\n            }\n        ],\n        \"action\": \"\",\n        \"property\": \"\",\n        \"from\": \"\",\n        \"to\": \"\",\n        \"reg\": false,\n        \"x\": 470,\n        \"y\": 260,\n        \"wires\": [\n            [\n                \"dacca689.055138\"\n            ]\n        ]\n    }\n]\n```\n\nExemple of input :\n\n```\n[{\"id\":\"66da3fb7.1e4ff\",\"type\":\"change\",\"z\":\"8a8a63c5.0c3c2\",\"name\":\"\",\"rules\":[{\"t\":\"set\",\"p\":\"title\",\"pt\":\"msg\",\"to\":\"Coucou\",\"tot\":\"str\"},{\"t\":\"set\",\"p\":\"message\",\"pt\":\"msg\",\"to\":\"Long Message\",\"tot\":\"str\"},{\"t\":\"set\",\"p\":\"short_message\",\"pt\":\"msg\",\"to\":\"Short Message\",\"tot\":\"str\"},{\"t\":\"set\",\"p\":\"dest\",\"pt\":\"msg\",\"to\":\"tel_clement;mail_clement\",\"tot\":\"str\"}],\"action\":\"\",\"property\":\"\",\"from\":\"\",\"to\":\"\",\"reg\":false,\"x\":740,\"y\":1880,\"wires\":[[\"7300bcc2.c97c34\"]]}]\n```",
+        "info": "# Information\n\nThis flow aims to centralize all notifications.\n\nActualy, it's work with :\n- HTML5 (by Home Assistant)\n- Discord\n- Telegram\n- Email\n- TTS\n- Home Assistant (Mobile App)\n- SMS by HTTP\n- Appel Telegram (by CallMeBot)\n- Signal (by CallMeBot)\n- WhatsApp (by CallMeBot)\n- Facebook Messenger (by CallMeBot)\n\n# Requirements\n\n- node-red-contrib-chatbot\n- node-red-contrib-chatbot-discord\n- node-red-contrib-string\n- node-red-contrib-home-assistant-websocket\n- node-red-node-email\n\n\n# Input\n\nIn this example, you can find all inut :\n\n```\nmsg.title = \"Home Assistant - New version available\"\nmsg.dest = \"tel_clement;mail_clement;tts_80_hall\"  \nmsg.message = \"Home Assistant : New version available => 0.113.0 \\n\nhttps://github.com/home-assistant/core/releases/tag/0.113.0\"\nmsg.short_message = \"Home Assistant : New version available (0.113.0)\"\nmsg.image = \"/data/image.jpeg\"\nmsg.document = \"/data/doc.js\"\nmsg.video = \"/data/video.mp4\"\n```\n> All inputs are not necessarily compatible with all services\n\n\n## Title / `msg.title`\n\n_Available on : Email_\n\nTitle use only for email\n\n_Example:_\n\n```\nmsg.title = \"Home Assistant - New version available\"\n```\n\n## Message / `msg.message`\n\n_Available on : Email / Telegram / Discord / CallMeBot_\n\nLong version of message\n\n_Example:_\n\n```\nmsg.message = \"Home Assistant : New version available => 0.113.0 \\n https://github.com/home-assistant/core/releases/tag/0.113.0\"\n```\n\n## Short Message / `msg.short_message`\n_Available on : HTML5 / Home Assistant_\n\nShort Message use in \"popup'\n\n_Example:_\n```\nmsg.short_message = \"Home Assistant : New version available (0.113.0)\"\n```\n\n**WARNING : Message are Trim & `\\n` replace by space**\n> => If not set, i take msg.message.\n  \n## Message repetition/ `msg.repeat`\n\n_Available on : Telegram Voice (CallMeBot)_\n\nRepeat audio message X times.\n\n_Example:_\n```\nmsg.repeat = 2\n```\n\n## Image / `msg.image`\n_Available on : Telegram / CallMeBotMessenger_\n\n_Example:_\n```\nmsg.image = \"/data/image.jpeg\"\nmsg.image = \"https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg\"\n```\n## Document / `msg.document`\n_Available on : Telegram_\n_Example:_\n```\nmsg.document = \"/data/doc.js\"\n```\n## Video / `msg.video`\n_Available on : Telegram_\n_Example:_\n```\nmsg.video = \"/data/video.mp4\"\n```\n\n## Destination / `msg.dest`\n\n_Available on : All_\n\nIs a string to contains all destination separated by \"`;`\"\n\n_Example:_\n\n```\nmsg.dest = \"tel_clement;mail_clement;tts_80_hall\"  \n```\n\nMessage send to :\n- tel_clement \n- mail_clement\n- tts_80_hall       \n\n### HTML5\nThis dest is always notify, you don't need to add this dest.\n\n### Discord \nDest must start by `discord_`\n\n_Example:_\n```\nmsg.dest = \"discord_communaute_news;discord_maison_information;discord_maison_network\"  \n```\n\n### Home Assistant \nDest must start by `tel_`\n\n_Example:_\n```\nmsg.dest = \"tel_clement;tel_papa;tel_maman\n```\n### Email \nDest must start by `mail_`\n\n_Example:_\n```\nmsg.dest = \"mail_clement;mail_thomas\"\n```\n### Telegram\nDest must start by `telegram_`\n\n_Example:_\n```\nmsg.dest = \"telegram_smarthome;telegram_familly\"\n```\n### TTS\nDest must start by `tts_`\n\nFormat : `tts_{VOLUME}_{ENTITY_ID_OF_MEDIA_PLAYER}`\n\n_Example:_\n```\nmsg.dest = \"tts_80_hall\"\n```\n\n### SMS\nDest must start by `sms_`\n\n_Example:_\n```\nmsg.dest = \"sms_clement\"\n```\n### Telegram Voice (CallMeBot)\nDest must start by `callmebot_telegram_voice_`\n\n_Example:_\n```\nmsg.dest = \"callmebot_telegram_voice_clement\"\n```\n### FacebookMessenger (CallMeBot)\nDest must start by `callmebot_messenger_`\n\n_Example:_\n```\nmsg.dest = \"callmebot_messenger_clement\"\n```\n### Signal (CallMeBot)\nDest must start by `callmebot_signal_`\n\n_Example:_\n```\nmsg.dest = \"callmebot_signal_clement\"\n```\n### Whatsapp (CallMeBot)\nDest must start by `callmebot_whatsapp_`\n\n_Example:_\n```\nmsg.dest = \"callmebot_whatsapp_clement\"\n```\n\n# Configuration\nSubflow get configuration in global variable `notif.`\n> TTS no need configuration\n\n_Example:_\n\n```\nvar configuration = \n{\n    \"discord\": {\n        \"dest\": {\n            \"discord_communaute_news\": \"https://discord.com/api/webhooks/XXXXXXXXXXXXXXXX\",\n            \"discord_communaute_zwave\": \"https://discord.com/api/webhooks/YYYYYYYYYYYYYYYY\",\n            \"discord_communaute_diy\": \"https://discord.com/api/webhooks/ZZZZZZZZZZZZZZZZZ\",\n        }\n    },\n    \"home_assistant\": {\n        \"dest\": {\n            \"tel_clement\": \"mobile_app_oneplus_a6010\",\n            \"tel_nathalie\": \"mobile_app_oneplus_a5000\"\n        }\n    },\n    \"email\": {\n        \"dest\": {\n            \"mail_clement\": \"email1@domain.fr\",\n            \"mail_john\": \"email2@domain.fr\",\n            \"mail_bibi\": \"email3@domain.fr\"        \n        }\n    },\n    \"telegram\": {\n        \"dest\": {\n            \"telegram_smarthome\": \"ID1\",\n            \"telegram_bot\": \"ID2\"        \n        }\n    },\n    \"mattermost\": {\n        \"dest\": {\n            \"mattermost_home\" : \"https://mattermost.domain.fr/hooks/XXXXXXXXXXXXXXXXXXXXXXXXX\",\n            \"mattermost_volets\" : \"https://mattermost.domain.fr/hooks/YYYYYYYYYYYYYYYYYYYYYYYY\",\n        }\n    },\n    \"sms\": {\n        \"url\": \"http://192.168.1.1:8080/?action=sendSms&number=##SMSNUMBER##&message=##MESSAGE##\",\n        \"dest\": {\n            \"sms_clement\": \"06XXXXXXXXX\",\n            \"sms_nathalie\": \"06YYYYYYYYY\",\n        }\n    },\n    \"callmebot\": {\n        \"dest\": {\n            \"callmebot_messenger_clement\" : \"https://api.callmebot.com/facebook/send.php?apikey=##APIKEY##\",\n            \"callmebot_signal_clement\" : \"https://api.callmebot.com/signal/send.php?phone=##PHONENUMBER##&apikey=##APIKEY##\",\n            \"callmebot_telegram_voice_clement\" : \"http://api.callmebot.com/start.php?user=##USERNAME##&lang=##LANGUAGE##\",\n            \"callmebot_whatsapp_clement\" : \"https://api.callmebot.com/whatsapp.php?phone=##PHONENUMBER##&apikey=##APIKEY##\"\n        }\n    }\n}\nglobal.set(\"notif\",configuration)\n\nreturn msg;\n```\n\nYou can take this flow to help you to configure sublow :) \n\n\n```\n[\n    {\n        \"id\": \"bbda9cf1.ad8ba\",\n        \"type\": \"inject\",\n        \"z\": \"a9ae8a01.8a5bd8\",\n        \"name\": \"\",\n        \"props\": [\n            {\n                \"p\": \"payload\"\n            }\n        ],\n        \"repeat\": \"\",\n        \"crontab\": \"\",\n        \"once\": true,\n        \"onceDelay\": 0.1,\n        \"topic\": \"\",\n        \"payload\": \"\",\n        \"payloadType\": \"date\",\n        \"x\": 290,\n        \"y\": 260,\n        \"wires\": [\n            [\n                \"513d2c9.069c3d4\"\n            ]\n        ]\n    },\n    {\n        \"id\": \"dacca689.055138\",\n        \"type\": \"function\",\n        \"z\": \"a9ae8a01.8a5bd8\",\n        \"name\": \"Configurateur EXEMPLE\",\n        \"func\": \"var configuration = \\n{\\n    \\\"discord\\\": {\\n        \\\"dest\\\": {\\n            \\\"discord_communaute_news\\\": \\\"https://discord.com/api/webhooks/XXXXXXXXXXXXXXXX\\\",\\n            \\\"discord_communaute_zwave\\\": \\\"https://discord.com/api/webhooks/YYYYYYYYYYYYYYYY\\\",\\n            \\\"discord_communaute_diy\\\": \\\"https://discord.com/api/webhooks/ZZZZZZZZZZZZZZZZZ\\\",\\n        }\\n    },\\n    \\\"home_assistant\\\": {\\n        \\\"dest\\\": {\\n            \\\"tel_clement\\\": \\\"mobile_app_oneplus_a6010\\\",\\n            \\\"tel_nathalie\\\": \\\"mobile_app_oneplus_a5000\\\"\\n        }\\n    },\\n    \\\"email\\\": {\\n        \\\"dest\\\": {\\n            \\\"mail_clement\\\": \\\"email1@domain.fr\\\",\\n            \\\"mail_john\\\": \\\"email2@domain.fr\\\",\\n            \\\"mail_bibi\\\": \\\"email3@domain.fr\\\"        \\n        }\\n    },\\n    \\\"telegram\\\": {\\n        \\\"dest\\\": {\\n            \\\"telegram_smarthome\\\": \\\"ID1\\\",\\n            \\\"telegram_bot\\\": \\\"ID2\\\"        \\n        }\\n    },\\n    \\\"mattermost\\\": {\\n        \\\"dest\\\": {\\n            \\\"mattermost_home\\\" : \\\"https://mattermost.domain.fr/hooks/XXXXXXXXXXXXXXXXXXXXXXXXX\\\",\\n            \\\"mattermost_volets\\\" : \\\"https://mattermost.domain.fr/hooks/YYYYYYYYYYYYYYYYYYYYYYYY\\\",\\n        }\\n    },\\n    \\\"sms\\\": {\\n        \\\"url\\\": \\\"http://192.168.1.1:8080/?action=sendSms&number=##SMSNUMBER##&message=##MESSAGE##\\\",\\n        \\\"dest\\\": {\\n            \\\"sms_clement\\\": \\\"06XXXXXXXXX\\\",\\n            \\\"sms_nathalie\\\": \\\"06YYYYYYYYY\\\",\\n        }\\n    }\\n}\\nglobal.set(\\\"notif\\\",configuration)\\n\\nreturn msg;\",\n        \"outputs\": 1,\n        \"noerr\": 0,\n        \"initialize\": \"\",\n        \"finalize\": \"\",\n        \"x\": 700,\n        \"y\": 260,\n        \"wires\": [\n            []\n        ]\n    },\n    {\n        \"id\": \"513d2c9.069c3d4\",\n        \"type\": \"change\",\n        \"z\": \"a9ae8a01.8a5bd8\",\n        \"name\": \"Remove old config\",\n        \"rules\": [\n            {\n                \"t\": \"delete\",\n                \"p\": \"notif\",\n                \"pt\": \"global\"\n            }\n        ],\n        \"action\": \"\",\n        \"property\": \"\",\n        \"from\": \"\",\n        \"to\": \"\",\n        \"reg\": false,\n        \"x\": 470,\n        \"y\": 260,\n        \"wires\": [\n            [\n                \"dacca689.055138\"\n            ]\n        ]\n    }\n]\n```\n\nExemple of input :\n\n```\n[{\"id\":\"66da3fb7.1e4ff\",\"type\":\"change\",\"z\":\"8a8a63c5.0c3c2\",\"name\":\"\",\"rules\":[{\"t\":\"set\",\"p\":\"title\",\"pt\":\"msg\",\"to\":\"Coucou\",\"tot\":\"str\"},{\"t\":\"set\",\"p\":\"message\",\"pt\":\"msg\",\"to\":\"Long Message\",\"tot\":\"str\"},{\"t\":\"set\",\"p\":\"short_message\",\"pt\":\"msg\",\"to\":\"Short Message\",\"tot\":\"str\"},{\"t\":\"set\",\"p\":\"dest\",\"pt\":\"msg\",\"to\":\"tel_clement;mail_clement\",\"tot\":\"str\"}],\"action\":\"\",\"property\":\"\",\"from\":\"\",\"to\":\"\",\"reg\":false,\"x\":740,\"y\":1880,\"wires\":[[\"7300bcc2.c97c34\"]]}]\n```",
         "x": 610,
         "y": 240,
         "wires": []
     },
     {
-        "id": "82df49fa.94fce8",
+        "id": "2d1ed5b2f28731c6",
         "type": "split",
-        "z": "711f44dc.b8379c",
+        "z": "d37c0d33d99013c6",
         "name": "",
         "splt": ";",
         "spltType": "str",
@@ -559,14 +591,14 @@
         "y": 580,
         "wires": [
             [
-                "b75dca3b.2834b8"
+                "b605757d45f6514b"
             ]
         ]
     },
     {
-        "id": "bb6496b6.c5fb38",
+        "id": "d3a95e4560d29aac",
         "type": "change",
-        "z": "711f44dc.b8379c",
+        "z": "d37c0d33d99013c6",
         "name": "Convert dest2payload",
         "rules": [
             {
@@ -586,14 +618,14 @@
         "y": 580,
         "wires": [
             [
-                "82df49fa.94fce8"
+                "2d1ed5b2f28731c6"
             ]
         ]
     },
     {
-        "id": "b75dca3b.2834b8",
+        "id": "b605757d45f6514b",
         "type": "delay",
-        "z": "711f44dc.b8379c",
+        "z": "d37c0d33d99013c6",
         "name": "",
         "pauseType": "rate",
         "timeout": "5",
@@ -605,18 +637,19 @@
         "randomLast": "5",
         "randomUnits": "seconds",
         "drop": false,
+        "outputs": 1,
         "x": 630,
         "y": 580,
         "wires": [
             [
-                "91588395.e426"
+                "e1c13804fdcdfb85"
             ]
         ]
     },
     {
-        "id": "91588395.e426",
+        "id": "e1c13804fdcdfb85",
         "type": "change",
-        "z": "711f44dc.b8379c",
+        "z": "d37c0d33d99013c6",
         "name": "Convert payload2dest",
         "rules": [
             {
@@ -636,25 +669,25 @@
         "y": 580,
         "wires": [
             [
-                "11d2840b.c4c60c"
+                "b45bfdf42c36c673"
             ]
         ]
     },
     {
-        "id": "8c9a6e88.26e9f",
+        "id": "95c0c463630314a5",
         "type": "comment",
-        "z": "711f44dc.b8379c",
+        "z": "d37c0d33d99013c6",
         "name": "========== DOCUMENTATION FR ==========",
-        "info": "# Information\n\nCe subflow va vous permettre de notifier plusieurs service en même temps.\n\nActuellement il gérée les services :\n- HTML5 (by Home Assistant)\n- Discord\n- Telegram\n- Email\n- TTS\n- Home Assistant (Mobile App)\n- SMS via HTTP\n\n# Pré-requis\n\n- node-red-contrib-chatbot\n- node-red-contrib-chatbot-discord\n- node-red-contrib-string\n- node-red-contrib-home-assistant-websocket\n- node-red-node-email\n\n\n# Entrée\n\nVoici la liste des inputs actuellement possible :\n\n```\nmsg.title = \"Home Assistant - New version available\"\nmsg.dest = \"tel_clement;mail_clement;tts_80_hall\"  \nmsg.message = \"Home Assistant : New version available => 0.113.0 \\n\nhttps://github.com/home-assistant/core/releases/tag/0.113.0\"\nmsg.short_message = \"Home Assistant : New version available (0.113.0)\"\nmsg.image = \"/data/image.jpeg\"\nmsg.document = \"/data/doc.js\"\nmsg.video = \"/data/video.mp4\"\n```\n> Tout les inputs ne sont pas forcement compatible avec les differents services.\n\n## Titre / `msg.title`\n\n_Disponible sur : Email_\n\nTitre du mail.\n\n_Exemple:_\n\n```\nmsg.title = \"Home Assistant - New version available\"\n```\n\n## Message / `msg.message`\n\n_Disponible sur : Email / Telegram / Discord_\n\nVersion longue du message.\n\n_Exemple:_\n\n```\nmsg.message = \"Home Assistant : New version available => 0.113.0 \\n https://github.com/home-assistant/core/releases/tag/0.113.0\"\n```\n\n## Message court / `msg.short_message`\n\n_Disponible sur : HTML5 / Home Assistant_\n\nMessage reduit pour les services type \"popup\".\n\n_Exemple:_\n```\nmsg.short_message = \"Home Assistant : New version available (0.113.0)\"\n```\n\n**ATTENTION : Les messages est `trim` et les `\\n` sont remplacer par des espace**\n> => Si il n'est pas défini, je reprend les `msg.message`\n\n## Image / `msg.image`\n\n_Disponible sur : Telegram_\n\n_Exemple:_\n```\nmsg.image = \"/data/image.jpeg\"\nmsg.image = \"https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg\"\n```\n## Document / `msg.document`\n\n_Disponible sur : Telegram_\n\n_Exemple:_\n```\nmsg.document = \"/data/doc.js\"\n```\n## Video / `msg.video`\n\n_Disponible sur : Telegram_\n\n_Exemple:_\n```\nmsg.video = \"/data/video.mp4\"\n```\n\n## Destinatation / `msg.dest`\nUn string qui contient la liste des services que vous désirez notifier séparer par des \"`;`\"\n\n_Exemple:_\n\n```\nmsg.dest = \"tel_clement;mail_clement;tts_80_hall\"  \n```\n\nLe message sera envoyé à :\n- tel_clement \n- mail_clement\n- tts_80_hall       \n\n### HTML5\nLa totalité des messages passe par ce système par défaut, pas besoin de l'ajouter en destination.\n\n### Discord \ndest doit commencer par `discord_`\n\n_Exemple:_\n```\nmsg.dest = \"discord_communaute_news;discord_maison_information;discord_maison_network\"  \n```\n\n### Home Assistant \ndest doit commencer par `tel_`\n\n_Exemple:_\n```\nmsg.dest = \"tel_clement;tel_papa;tel_maman\n```\n### Email \ndest doit commencer par `mail_`\n\n_Exemple:_\n```\nmsg.dest = \"mail_clement;mail_thomas\"\n```\n### Telegram\ndest doit commencer par `telegram_`\n\n_Exemple:_\n```\nmsg.dest = \"telegram_smarthome;telegram_familly\"\n```\n### TTS\ndest doit commencer par `tts_`\n\nFormat : `tts_{VOLUME}_{ENTITY_ID_DU_MEDIA_PLAYER}`\n\n_Exemple:_\n```\nmsg.dest = \"tts_80_hall\"\n```\n### SMS\ndest doit commencer par `sms_`\n\n_Exemple:_\n```\nmsg.dest = \"sms_clement\"\n```\n\n# Configuration\n\nLe subflow récupére sa configuration via la variable Global `notif.`\n\n> TTS n'a besoin d'aucune configuration particulière\n\n_Exemple:_\n\n```\nvar configuration = \n{\n    \"discord\": {\n        \"dest\": {\n            \"discord_communaute_news\": \"https://discord.com/api/webhooks/XXXXXXXXXXXXXXXX\",\n            \"discord_communaute_zwave\": \"https://discord.com/api/webhooks/YYYYYYYYYYYYYYYY\",\n            \"discord_communaute_diy\": \"https://discord.com/api/webhooks/ZZZZZZZZZZZZZZZZZ\",\n        }\n    },\n    \"home_assistant\": {\n        \"dest\": {\n            \"tel_clement\": \"mobile_app_oneplus_a6010\",\n            \"tel_nathalie\": \"mobile_app_oneplus_a5000\"\n        }\n    },\n    \"email\": {\n        \"dest\": {\n            \"mail_clement\": \"email1@domain.fr\",\n            \"mail_john\": \"email2@domain.fr\",\n            \"mail_bibi\": \"email3@domain.fr\"        \n        }\n    },\n    \"telegram\": {\n        \"dest\": {\n            \"telegram_smarthome\": \"ID1\",\n            \"telegram_bot\": \"ID2\"        \n        }\n    },\n    \"mattermost\": {\n        \"dest\": {\n            \"mattermost_home\" : \"https://mattermost.domain.fr/hooks/XXXXXXXXXXXXXXXXXXXXXXXXX\",\n            \"mattermost_volets\" : \"https://mattermost.domain.fr/hooks/YYYYYYYYYYYYYYYYYYYYYYYY\",\n        }\n    },\n    \"sms\": {\n        \"url\": \"http://192.168.1.1:8080/?action=sendSms&number=##SMSNUMBER##&message=##MESSAGE##\",\n        \"dest\": {\n            \"sms_clement\": \"06XXXXXXXXX\",\n            \"sms_nathalie\": \"06YYYYYYYYY\",\n        }\n    }\n}\nglobal.set(\"notif\",configuration)\n\nreturn msg;\n```\n\nPour vous aidez dans la configuration voici une function qui va vous permettres de pousser votre configuration à chaque deploiement.\n\nTout ce passe dans le node `Function`.\n\n\n```\n[\n    {\n        \"id\": \"bbda9cf1.ad8ba\",\n        \"type\": \"inject\",\n        \"z\": \"a9ae8a01.8a5bd8\",\n        \"name\": \"\",\n        \"props\": [\n            {\n                \"p\": \"payload\"\n            }\n        ],\n        \"repeat\": \"\",\n        \"crontab\": \"\",\n        \"once\": true,\n        \"onceDelay\": 0.1,\n        \"topic\": \"\",\n        \"payload\": \"\",\n        \"payloadType\": \"date\",\n        \"x\": 290,\n        \"y\": 260,\n        \"wires\": [\n            [\n                \"513d2c9.069c3d4\"\n            ]\n        ]\n    },\n    {\n        \"id\": \"dacca689.055138\",\n        \"type\": \"function\",\n        \"z\": \"a9ae8a01.8a5bd8\",\n        \"name\": \"Configurateur EXEMPLE\",\n        \"func\": \"var configuration = \\n{\\n    \\\"discord\\\": {\\n        \\\"dest\\\": {\\n            \\\"discord_communaute_news\\\": \\\"https://discord.com/api/webhooks/XXXXXXXXXXXXXXXX\\\",\\n            \\\"discord_communaute_zwave\\\": \\\"https://discord.com/api/webhooks/YYYYYYYYYYYYYYYY\\\",\\n            \\\"discord_communaute_diy\\\": \\\"https://discord.com/api/webhooks/ZZZZZZZZZZZZZZZZZ\\\",\\n        }\\n    },\\n    \\\"home_assistant\\\": {\\n        \\\"dest\\\": {\\n            \\\"tel_clement\\\": \\\"mobile_app_oneplus_a6010\\\",\\n            \\\"tel_nathalie\\\": \\\"mobile_app_oneplus_a5000\\\"\\n        }\\n    },\\n    \\\"email\\\": {\\n        \\\"dest\\\": {\\n            \\\"mail_clement\\\": \\\"email1@domain.fr\\\",\\n            \\\"mail_john\\\": \\\"email2@domain.fr\\\",\\n            \\\"mail_bibi\\\": \\\"email3@domain.fr\\\"        \\n        }\\n    },\\n    \\\"telegram\\\": {\\n        \\\"dest\\\": {\\n            \\\"telegram_smarthome\\\": \\\"ID1\\\",\\n            \\\"telegram_bot\\\": \\\"ID2\\\"        \\n        }\\n    },\\n    \\\"mattermost\\\": {\\n        \\\"dest\\\": {\\n            \\\"mattermost_home\\\" : \\\"https://mattermost.domain.fr/hooks/XXXXXXXXXXXXXXXXXXXXXXXXX\\\",\\n            \\\"mattermost_volets\\\" : \\\"https://mattermost.domain.fr/hooks/YYYYYYYYYYYYYYYYYYYYYYYY\\\",\\n        }\\n    },\\n    \\\"sms\\\": {\\n        \\\"url\\\": \\\"http://192.168.1.1:8080/?action=sendSms&number=##SMSNUMBER##&message=##MESSAGE##\\\",\\n        \\\"dest\\\": {\\n            \\\"sms_clement\\\": \\\"06XXXXXXXXX\\\",\\n            \\\"sms_nathalie\\\": \\\"06YYYYYYYYY\\\",\\n        }\\n    }\\n}\\nglobal.set(\\\"notif\\\",configuration)\\n\\nreturn msg;\",\n        \"outputs\": 1,\n        \"noerr\": 0,\n        \"initialize\": \"\",\n        \"finalize\": \"\",\n        \"x\": 700,\n        \"y\": 260,\n        \"wires\": [\n            []\n        ]\n    },\n    {\n        \"id\": \"513d2c9.069c3d4\",\n        \"type\": \"change\",\n        \"z\": \"a9ae8a01.8a5bd8\",\n        \"name\": \"Remove old config\",\n        \"rules\": [\n            {\n                \"t\": \"delete\",\n                \"p\": \"notif\",\n                \"pt\": \"global\"\n            }\n        ],\n        \"action\": \"\",\n        \"property\": \"\",\n        \"from\": \"\",\n        \"to\": \"\",\n        \"reg\": false,\n        \"x\": 470,\n        \"y\": 260,\n        \"wires\": [\n            [\n                \"dacca689.055138\"\n            ]\n        ]\n    }\n]\n```\n\nEt voici un exemple de flow d'input :\n\n```\n[{\"id\":\"66da3fb7.1e4ff\",\"type\":\"change\",\"z\":\"8a8a63c5.0c3c2\",\"name\":\"\",\"rules\":[{\"t\":\"set\",\"p\":\"title\",\"pt\":\"msg\",\"to\":\"Coucou\",\"tot\":\"str\"},{\"t\":\"set\",\"p\":\"message\",\"pt\":\"msg\",\"to\":\"Long Message\",\"tot\":\"str\"},{\"t\":\"set\",\"p\":\"short_message\",\"pt\":\"msg\",\"to\":\"Short Message\",\"tot\":\"str\"},{\"t\":\"set\",\"p\":\"dest\",\"pt\":\"msg\",\"to\":\"tel_clement;mail_clement\",\"tot\":\"str\"}],\"action\":\"\",\"property\":\"\",\"from\":\"\",\"to\":\"\",\"reg\":false,\"x\":740,\"y\":1880,\"wires\":[[\"7300bcc2.c97c34\"]]}]\n```",
+        "info": "# Information\n\nCe subflow va vous permettre de notifier plusieurs services en même temps.\n\nActuellement il gére les services :\n- HTML5 (by Home Assistant)\n- Discord\n- Telegram\n- Email\n- TTS\n- Home Assistant (Mobile App)\n- SMS via HTTP\n- Appel Telegram (avec CallMeBot)\n- Signal (avec CallMeBot)\n- WhatsApp (avec CallMeBot)\n- Facebook Messenger (avec CallMeBot)\n\n# Pré-requis\n\n- node-red-contrib-chatbot\n- node-red-contrib-chatbot-discord\n- node-red-contrib-string\n- node-red-contrib-home-assistant-websocket\n- node-red-node-email\n\n\n# Entrée\n\nVoici la liste des inputs actuellement possible :\n\n```\nmsg.title = \"Home Assistant - New version available\"\nmsg.dest = \"tel_clement;mail_clement;tts_80_hall\"  \nmsg.message = \"Home Assistant : New version available => 0.113.0 \\n\nhttps://github.com/home-assistant/core/releases/tag/0.113.0\"\nmsg.short_message = \"Home Assistant : New version available (0.113.0)\"\nmsg.image = \"/data/image.jpeg\"\nmsg.document = \"/data/doc.js\"\nmsg.video = \"/data/video.mp4\"\n```\n> Tout les inputs ne sont pas forcement compatible avec les differents services.\n\n## Titre / `msg.title`\n\n_Disponible sur : Email_\n\nTitre du mail.\n\n_Exemple:_\n\n```\nmsg.title = \"Home Assistant - New version available\"\n```\n\n## Message / `msg.message`\n\n_Disponible sur : Email / Telegram / Discord / CallMeBot_\n\nVersion longue du message.\n\n_Exemple:_\n\n```\nmsg.message = \"Home Assistant : New version available => 0.113.0 \\n https://github.com/home-assistant/core/releases/tag/0.113.0\"\n```\n\n## Message court / `msg.short_message`\n\n_Disponible sur : HTML5 / Home Assistant_\n\nMessage reduit pour les services type \"popup\".\n\n_Exemple:_\n```\nmsg.short_message = \"Home Assistant : New version available (0.113.0)\"\n```\n\n**ATTENTION : Les messages est `trim` et les `\\n` sont remplacer par des espace**\n> => Si il n'est pas défini, je reprend les `msg.message`\n\n## Répétition du message / `msg.repeat`\n\n_Disponible sur : Telegram Voice (CallMeBot)_\n\nRépète le message audio X fois.\n\n_Exemple:_\n```\nmsg.repeat = 2\n```\n\n## Image / `msg.image`\n\n_Disponible sur : Telegram / CallMeBot Messenger_\n\n_Exemple:_\n```\nmsg.image = \"/data/image.jpeg\"\nmsg.image = \"https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg\"\n```\n## Document / `msg.document`\n\n_Disponible sur : Telegram_\n\n_Exemple:_\n```\nmsg.document = \"/data/doc.js\"\n```\n## Video / `msg.video`\n\n_Disponible sur : Telegram_\n\n_Exemple:_\n```\nmsg.video = \"/data/video.mp4\"\n```\n\n## Destinatation / `msg.dest`\nUn string qui contient la liste des services que vous désirez notifier séparer par des \"`;`\"\n\n_Exemple:_\n\n```\nmsg.dest = \"tel_clement;mail_clement;tts_80_hall\"  \n```\n\nLe message sera envoyé à :\n- tel_clement \n- mail_clement\n- tts_80_hall       \n\n### HTML5\nLa totalité des messages passe par ce système par défaut, pas besoin de l'ajouter en destination.\n\n### Discord \ndest doit commencer par `discord_`\n\n_Exemple:_\n```\nmsg.dest = \"discord_communaute_news;discord_maison_information;discord_maison_network\"  \n```\n\n### Home Assistant \ndest doit commencer par `tel_`\n\n_Exemple:_\n```\nmsg.dest = \"tel_clement;tel_papa;tel_maman\n```\n### Email \ndest doit commencer par `mail_`\n\n_Exemple:_\n```\nmsg.dest = \"mail_clement;mail_thomas\"\n```\n### Telegram\ndest doit commencer par `telegram_`\n\n_Exemple:_\n```\nmsg.dest = \"telegram_smarthome;telegram_familly\"\n```\n### TTS\ndest doit commencer par `tts_`\n\nFormat : `tts_{VOLUME}_{ENTITY_ID_DU_MEDIA_PLAYER}`\n\n_Exemple:_\n```\nmsg.dest = \"tts_80_hall\"\n```\n### SMS\ndest doit commencer par `sms_`\n\n_Exemple:_\n```\nmsg.dest = \"sms_clement\"\n```\n### Telegram Voice (CallMeBot)\ndest doit commencer par `callmebot_telegram_voice_`\n\n_Exemple:_\n```\nmsg.dest = \"callmebot_telegram_voice_clement\"\n```\n### FacebookMessenger (CallMeBot)\ndest doit commencer par `callmebot_messenger_`\n\n_Exemple:_\n```\nmsg.dest = \"callmebot_messenger_clement\"\n```\n### Signal (CallMeBot)\ndest doit commencer par `callmebot_signal_`\n\n_Exemple:_\n```\nmsg.dest = \"callmebot_signal_clement\"\n```\n### Whatsapp (CallMeBot)\ndest doit commencer par `callmebot_whatsapp_`\n\n_Exemple:_\n```\nmsg.dest = \"callmebot_whatsapp_clement\"\n```\n\n# Configuration\n\nLe subflow récupére sa configuration via la variable Global `notif.`\n\n> TTS n'a besoin d'aucune configuration particulière\n\n_Exemple:_\n\n```\nvar configuration = \n{\n    \"discord\": {\n        \"dest\": {\n            \"discord_communaute_news\": \"https://discord.com/api/webhooks/XXXXXXXXXXXXXXXX\",\n            \"discord_communaute_zwave\": \"https://discord.com/api/webhooks/YYYYYYYYYYYYYYYY\",\n            \"discord_communaute_diy\": \"https://discord.com/api/webhooks/ZZZZZZZZZZZZZZZZZ\",\n        }\n    },\n    \"home_assistant\": {\n        \"dest\": {\n            \"tel_clement\": \"mobile_app_oneplus_a6010\",\n            \"tel_nathalie\": \"mobile_app_oneplus_a5000\"\n        }\n    },\n    \"email\": {\n        \"dest\": {\n            \"mail_clement\": \"email1@domain.fr\",\n            \"mail_john\": \"email2@domain.fr\",\n            \"mail_bibi\": \"email3@domain.fr\"        \n        }\n    },\n    \"telegram\": {\n        \"dest\": {\n            \"telegram_smarthome\": \"ID1\",\n            \"telegram_bot\": \"ID2\"        \n        }\n    },\n    \"mattermost\": {\n        \"dest\": {\n            \"mattermost_home\" : \"https://mattermost.domain.fr/hooks/XXXXXXXXXXXXXXXXXXXXXXXXX\",\n            \"mattermost_volets\" : \"https://mattermost.domain.fr/hooks/YYYYYYYYYYYYYYYYYYYYYYYY\",\n        }\n    },\n    \"sms\": {\n        \"url\": \"http://192.168.1.1:8080/?action=sendSms&number=##SMSNUMBER##&message=##MESSAGE##\",\n        \"dest\": {\n            \"sms_clement\": \"06XXXXXXXXX\",\n            \"sms_nathalie\": \"06YYYYYYYYY\",\n        }\n    },\n    \"callmebot\": {\n        \"dest\": {\n            \"callmebot_messenger_clement\" : \"https://api.callmebot.com/facebook/send.php?apikey=##APIKEY##\",\n            \"callmebot_signal_clement\" : \"https://api.callmebot.com/signal/send.php?phone=##PHONENUMBER##&apikey=##APIKEY##\",\n            \"callmebot_telegram_voice_clement\" : \"http://api.callmebot.com/start.php?user=##USERNAME##&lang=##LANGUAGE##\",\n            \"callmebot_whatsapp_clement\" : \"https://api.callmebot.com/whatsapp.php?phone=##PHONENUMBER##&apikey=##APIKEY##\"\n        }\n    }\n}\nglobal.set(\"notif\",configuration)\n\nreturn msg;\n```\n\nPour vous aidez dans la configuration voici une function qui va vous permettres de pousser votre configuration à chaque deploiement.\n\nTout ce passe dans le node `Function`.\n\n\n```\n[\n    {\n        \"id\": \"bbda9cf1.ad8ba\",\n        \"type\": \"inject\",\n        \"z\": \"a9ae8a01.8a5bd8\",\n        \"name\": \"\",\n        \"props\": [\n            {\n                \"p\": \"payload\"\n            }\n        ],\n        \"repeat\": \"\",\n        \"crontab\": \"\",\n        \"once\": true,\n        \"onceDelay\": 0.1,\n        \"topic\": \"\",\n        \"payload\": \"\",\n        \"payloadType\": \"date\",\n        \"x\": 290,\n        \"y\": 260,\n        \"wires\": [\n            [\n                \"513d2c9.069c3d4\"\n            ]\n        ]\n    },\n    {\n        \"id\": \"dacca689.055138\",\n        \"type\": \"function\",\n        \"z\": \"a9ae8a01.8a5bd8\",\n        \"name\": \"Configurateur EXEMPLE\",\n        \"func\": \"var configuration = \\n{\\n    \\\"discord\\\": {\\n        \\\"dest\\\": {\\n            \\\"discord_communaute_news\\\": \\\"https://discord.com/api/webhooks/XXXXXXXXXXXXXXXX\\\",\\n            \\\"discord_communaute_zwave\\\": \\\"https://discord.com/api/webhooks/YYYYYYYYYYYYYYYY\\\",\\n            \\\"discord_communaute_diy\\\": \\\"https://discord.com/api/webhooks/ZZZZZZZZZZZZZZZZZ\\\",\\n        }\\n    },\\n    \\\"home_assistant\\\": {\\n        \\\"dest\\\": {\\n            \\\"tel_clement\\\": \\\"mobile_app_oneplus_a6010\\\",\\n            \\\"tel_nathalie\\\": \\\"mobile_app_oneplus_a5000\\\"\\n        }\\n    },\\n    \\\"email\\\": {\\n        \\\"dest\\\": {\\n            \\\"mail_clement\\\": \\\"email1@domain.fr\\\",\\n            \\\"mail_john\\\": \\\"email2@domain.fr\\\",\\n            \\\"mail_bibi\\\": \\\"email3@domain.fr\\\"        \\n        }\\n    },\\n    \\\"telegram\\\": {\\n        \\\"dest\\\": {\\n            \\\"telegram_smarthome\\\": \\\"ID1\\\",\\n            \\\"telegram_bot\\\": \\\"ID2\\\"        \\n        }\\n    },\\n    \\\"mattermost\\\": {\\n        \\\"dest\\\": {\\n            \\\"mattermost_home\\\" : \\\"https://mattermost.domain.fr/hooks/XXXXXXXXXXXXXXXXXXXXXXXXX\\\",\\n            \\\"mattermost_volets\\\" : \\\"https://mattermost.domain.fr/hooks/YYYYYYYYYYYYYYYYYYYYYYYY\\\",\\n        }\\n    },\\n    \\\"sms\\\": {\\n        \\\"url\\\": \\\"http://192.168.1.1:8080/?action=sendSms&number=##SMSNUMBER##&message=##MESSAGE##\\\",\\n        \\\"dest\\\": {\\n            \\\"sms_clement\\\": \\\"06XXXXXXXXX\\\",\\n            \\\"sms_nathalie\\\": \\\"06YYYYYYYYY\\\",\\n        }\\n    }\\n}\\nglobal.set(\\\"notif\\\",configuration)\\n\\nreturn msg;\",\n        \"outputs\": 1,\n        \"noerr\": 0,\n        \"initialize\": \"\",\n        \"finalize\": \"\",\n        \"x\": 700,\n        \"y\": 260,\n        \"wires\": [\n            []\n        ]\n    },\n    {\n        \"id\": \"513d2c9.069c3d4\",\n        \"type\": \"change\",\n        \"z\": \"a9ae8a01.8a5bd8\",\n        \"name\": \"Remove old config\",\n        \"rules\": [\n            {\n                \"t\": \"delete\",\n                \"p\": \"notif\",\n                \"pt\": \"global\"\n            }\n        ],\n        \"action\": \"\",\n        \"property\": \"\",\n        \"from\": \"\",\n        \"to\": \"\",\n        \"reg\": false,\n        \"x\": 470,\n        \"y\": 260,\n        \"wires\": [\n            [\n                \"dacca689.055138\"\n            ]\n        ]\n    }\n]\n```\n\nEt voici un exemple de flow d'input :\n\n```\n[{\"id\":\"66da3fb7.1e4ff\",\"type\":\"change\",\"z\":\"8a8a63c5.0c3c2\",\"name\":\"\",\"rules\":[{\"t\":\"set\",\"p\":\"title\",\"pt\":\"msg\",\"to\":\"Coucou\",\"tot\":\"str\"},{\"t\":\"set\",\"p\":\"message\",\"pt\":\"msg\",\"to\":\"Long Message\",\"tot\":\"str\"},{\"t\":\"set\",\"p\":\"short_message\",\"pt\":\"msg\",\"to\":\"Short Message\",\"tot\":\"str\"},{\"t\":\"set\",\"p\":\"dest\",\"pt\":\"msg\",\"to\":\"tel_clement;mail_clement\",\"tot\":\"str\"}],\"action\":\"\",\"property\":\"\",\"from\":\"\",\"to\":\"\",\"reg\":false,\"x\":740,\"y\":1880,\"wires\":[[\"7300bcc2.c97c34\"]]}]\n```",
         "x": 610,
         "y": 300,
         "wires": []
     },
     {
-        "id": "3804914.3e0396e",
+        "id": "0a3f80c5a104cea6",
         "type": "api-call-service",
-        "z": "711f44dc.b8379c",
-        "g": "3ba17f01.1ad71",
+        "z": "d37c0d33d99013c6",
+        "g": "3723944e52437383",
         "name": "Media Player : ON",
         "server": "7f33d7bb.9361a8",
         "version": 3,
@@ -672,15 +705,15 @@
         "y": 260,
         "wires": [
             [
-                "50d5d992.12f778"
+                "e40433584d22f707"
             ]
         ]
     },
     {
-        "id": "9be43a39.86fb38",
+        "id": "371bc920d7c02558",
         "type": "api-current-state",
-        "z": "711f44dc.b8379c",
-        "g": "3ba17f01.1ad71",
+        "z": "d37c0d33d99013c6",
+        "g": "3723944e52437383",
         "name": "Get Current Volume",
         "server": "7f33d7bb.9361a8",
         "version": 2,
@@ -709,15 +742,15 @@
         "y": 260,
         "wires": [
             [
-                "ce050387.d13e9"
+                "6fed6ed9102976f2"
             ]
         ]
     },
     {
-        "id": "50d5d992.12f778",
+        "id": "e40433584d22f707",
         "type": "delay",
-        "z": "711f44dc.b8379c",
-        "g": "3ba17f01.1ad71",
+        "z": "d37c0d33d99013c6",
+        "g": "3723944e52437383",
         "name": "",
         "pauseType": "delay",
         "timeout": "3",
@@ -729,19 +762,20 @@
         "randomLast": "5",
         "randomUnits": "seconds",
         "drop": false,
+        "outputs": 1,
         "x": 2200,
         "y": 260,
         "wires": [
             [
-                "9be43a39.86fb38"
+                "371bc920d7c02558"
             ]
         ]
     },
     {
-        "id": "5d1f7d2d.00d694",
+        "id": "d26f34de7d782d78",
         "type": "api-call-service",
-        "z": "711f44dc.b8379c",
-        "g": "3ba17f01.1ad71",
+        "z": "d37c0d33d99013c6",
+        "g": "3723944e52437383",
         "name": "Set volume",
         "server": "7f33d7bb.9361a8",
         "version": 3,
@@ -759,15 +793,15 @@
         "y": 260,
         "wires": [
             [
-                "b8f7a36e.3e1aa"
+                "b4e022117523905e"
             ]
         ]
     },
     {
-        "id": "ce050387.d13e9",
+        "id": "6fed6ed9102976f2",
         "type": "change",
-        "z": "711f44dc.b8379c",
-        "g": "3ba17f01.1ad71",
+        "z": "d37c0d33d99013c6",
+        "g": "3723944e52437383",
         "name": "Save Current Volume",
         "rules": [
             {
@@ -787,15 +821,15 @@
         "y": 260,
         "wires": [
             [
-                "5d1f7d2d.00d694"
+                "d26f34de7d782d78"
             ]
         ]
     },
     {
-        "id": "eaee88f3.fe9138",
+        "id": "185c01d9a8420fbe",
         "type": "api-current-state",
-        "z": "711f44dc.b8379c",
-        "g": "3ba17f01.1ad71",
+        "z": "d37c0d33d99013c6",
+        "g": "3723944e52437383",
         "name": "Get State",
         "server": "7f33d7bb.9361a8",
         "version": 2,
@@ -824,15 +858,15 @@
         "y": 260,
         "wires": [
             [
-                "60a2789f.1842a8"
+                "0d8ad26a693f9222"
             ]
         ]
     },
     {
-        "id": "45b1fc9f.afafc4",
+        "id": "c29950d5d6bbe380",
         "type": "function",
-        "z": "711f44dc.b8379c",
-        "g": "3ba17f01.1ad71",
+        "z": "d37c0d33d99013c6",
+        "g": "3723944e52437383",
         "name": "Split Message",
         "func": "dest = msg.dest.split('_');\nmsg.volume = dest[1]/100;\nmsg.dest = msg.dest.replace('tts_'+dest[1]+\"_\",\"\");\nreturn msg;",
         "outputs": 1,
@@ -843,15 +877,15 @@
         "y": 260,
         "wires": [
             [
-                "4bbdd1c0.ff6a7"
+                "692c4115ee79c566"
             ]
         ]
     },
     {
-        "id": "b8f7a36e.3e1aa",
+        "id": "b4e022117523905e",
         "type": "api-call-service",
-        "z": "711f44dc.b8379c",
-        "g": "3ba17f01.1ad71",
+        "z": "d37c0d33d99013c6",
+        "g": "3723944e52437383",
         "name": "Play TTS",
         "server": "7f33d7bb.9361a8",
         "version": 3,
@@ -869,15 +903,15 @@
         "y": 260,
         "wires": [
             [
-                "3ed2b5a9.244f3a"
+                "9f095dfa99f0027b"
             ]
         ]
     },
     {
-        "id": "5214f35f.538f4c",
+        "id": "84d0f2933aae945a",
         "type": "api-call-service",
-        "z": "711f44dc.b8379c",
-        "g": "3ba17f01.1ad71",
+        "z": "d37c0d33d99013c6",
+        "g": "3723944e52437383",
         "name": "Reset volume",
         "server": "7f33d7bb.9361a8",
         "version": 3,
@@ -895,15 +929,15 @@
         "y": 260,
         "wires": [
             [
-                "1af7d6f3.9aaa19"
+                "420b07fed09c3241"
             ]
         ]
     },
     {
-        "id": "3ed2b5a9.244f3a",
+        "id": "9f095dfa99f0027b",
         "type": "delay",
-        "z": "711f44dc.b8379c",
-        "g": "3ba17f01.1ad71",
+        "z": "d37c0d33d99013c6",
+        "g": "3723944e52437383",
         "name": "",
         "pauseType": "delay",
         "timeout": "3",
@@ -915,19 +949,20 @@
         "randomLast": "5",
         "randomUnits": "seconds",
         "drop": false,
+        "outputs": 1,
         "x": 3120,
         "y": 260,
         "wires": [
             [
-                "5d7f8264.16666c"
+                "a8dde3ef98ef2162"
             ]
         ]
     },
     {
-        "id": "5d7f8264.16666c",
+        "id": "a8dde3ef98ef2162",
         "type": "api-current-state",
-        "z": "711f44dc.b8379c",
-        "g": "3ba17f01.1ad71",
+        "z": "d37c0d33d99013c6",
+        "g": "3723944e52437383",
         "name": "Get State",
         "server": "7f33d7bb.9361a8",
         "version": 2,
@@ -956,18 +991,18 @@
         "y": 260,
         "wires": [
             [
-                "ca608072.a3c81"
+                "ee345b12135868f0"
             ],
             [
-                "5214f35f.538f4c"
+                "84d0f2933aae945a"
             ]
         ]
     },
     {
-        "id": "1af7d6f3.9aaa19",
+        "id": "420b07fed09c3241",
         "type": "api-call-service",
-        "z": "711f44dc.b8379c",
-        "g": "3ba17f01.1ad71",
+        "z": "d37c0d33d99013c6",
+        "g": "3723944e52437383",
         "name": "Media Player : OFF",
         "server": "7f33d7bb.9361a8",
         "version": 3,
@@ -985,47 +1020,43 @@
         "y": 260,
         "wires": [
             [
-                "18cbe457.1dfa6c"
+                "f93ac4d5ef391e4b"
             ]
         ]
     },
     {
-        "id": "ca608072.a3c81",
+        "id": "ee345b12135868f0",
         "type": "link out",
-        "z": "711f44dc.b8379c",
-        "g": "3ba17f01.1ad71",
+        "z": "d37c0d33d99013c6",
+        "g": "3723944e52437383",
         "name": "OUT : Wait idle",
-        "links": [
-            "e5fe9d8c.96704"
-        ],
+        "links": [],
         "x": 3440,
         "y": 220,
         "wires": [],
         "l": true
     },
     {
-        "id": "e5fe9d8c.96704",
+        "id": "b48bc09372740241",
         "type": "link in",
-        "z": "711f44dc.b8379c",
-        "g": "3ba17f01.1ad71",
+        "z": "d37c0d33d99013c6",
+        "g": "3723944e52437383",
         "name": "IN : Wait idle",
-        "links": [
-            "ca608072.a3c81"
-        ],
+        "links": [],
         "x": 2950,
         "y": 220,
         "wires": [
             [
-                "3ed2b5a9.244f3a"
+                "9f095dfa99f0027b"
             ]
         ],
         "l": true
     },
     {
-        "id": "60a2789f.1842a8",
+        "id": "0d8ad26a693f9222",
         "type": "switch",
-        "z": "711f44dc.b8379c",
-        "g": "3ba17f01.1ad71",
+        "z": "d37c0d33d99013c6",
+        "g": "3723944e52437383",
         "name": "Check status",
         "property": "payload",
         "propertyType": "msg",
@@ -1048,18 +1079,18 @@
         "y": 260,
         "wires": [
             [
-                "3804914.3e0396e"
+                "0a3f80c5a104cea6"
             ],
             [
-                "3804914.3e0396e"
+                "0a3f80c5a104cea6"
             ]
         ]
     },
     {
-        "id": "81b3a930.d07b08",
+        "id": "be1bbea6bf3d42ed",
         "type": "string",
-        "z": "711f44dc.b8379c",
-        "g": "5cda64bd.38daec",
+        "z": "d37c0d33d99013c6",
+        "g": "109dfab8a46368d1",
         "name": "",
         "methods": [
             {
@@ -1088,15 +1119,15 @@
         "y": 100,
         "wires": [
             [
-                "8b310362.7bd2d"
+                "4a83ce0a96c6a5f7"
             ]
         ]
     },
     {
-        "id": "24afc5e8.8aadfa",
+        "id": "1d62ad721aa31cb7",
         "type": "string",
-        "z": "711f44dc.b8379c",
-        "g": "ecef5432.e60ef8",
+        "z": "d37c0d33d99013c6",
+        "g": "824f955238e88efc",
         "name": "",
         "methods": [
             {
@@ -1125,15 +1156,15 @@
         "y": 380,
         "wires": [
             [
-                "21b0610e.4e7cbe"
+                "db6dd1c33377c912"
             ]
         ]
     },
     {
-        "id": "4bbdd1c0.ff6a7",
+        "id": "692c4115ee79c566",
         "type": "string",
-        "z": "711f44dc.b8379c",
-        "g": "3ba17f01.1ad71",
+        "z": "d37c0d33d99013c6",
+        "g": "3723944e52437383",
         "name": "",
         "methods": [
             {
@@ -1162,15 +1193,15 @@
         "y": 260,
         "wires": [
             [
-                "eaee88f3.fe9138"
+                "185c01d9a8420fbe"
             ]
         ]
     },
     {
-        "id": "4e1a58dc.5faf88",
+        "id": "05619cd69558e775",
         "type": "function",
-        "z": "711f44dc.b8379c",
-        "g": "5cda64bd.38daec",
+        "z": "d37c0d33d99013c6",
+        "g": "109dfab8a46368d1",
         "name": "Log",
         "func": "node.log(\"NOTIF / HTML5 => OK\")\nreturn msg;",
         "outputs": 1,
@@ -1184,10 +1215,10 @@
         ]
     },
     {
-        "id": "e9da4b4c.c20068",
+        "id": "34dba90d638edb56",
         "type": "function",
-        "z": "711f44dc.b8379c",
-        "g": "ecef5432.e60ef8",
+        "z": "d37c0d33d99013c6",
+        "g": "824f955238e88efc",
         "name": "Log",
         "func": "node.log(\"NOTIF / Home Assistant => OK\")\nreturn msg;",
         "outputs": 1,
@@ -1201,10 +1232,10 @@
         ]
     },
     {
-        "id": "7bedaa16.93eda4",
+        "id": "f27feee1bed2108c",
         "type": "function",
-        "z": "711f44dc.b8379c",
-        "g": "57b5e8a3.37d5e8",
+        "z": "d37c0d33d99013c6",
+        "g": "9636cd574c04a5fa",
         "name": "Log",
         "func": "node.log(\"NOTIF / Email => OK\")\nreturn msg;",
         "outputs": 1,
@@ -1218,10 +1249,10 @@
         ]
     },
     {
-        "id": "18cbe457.1dfa6c",
+        "id": "f93ac4d5ef391e4b",
         "type": "function",
-        "z": "711f44dc.b8379c",
-        "g": "3ba17f01.1ad71",
+        "z": "d37c0d33d99013c6",
+        "g": "3723944e52437383",
         "name": "Log",
         "func": "node.log(\"NOTIF / TTS => OK\")\nreturn msg;",
         "outputs": 1,
@@ -1235,10 +1266,10 @@
         ]
     },
     {
-        "id": "dc0af305.08c5c",
+        "id": "be48507a4c85f8c8",
         "type": "function",
-        "z": "711f44dc.b8379c",
-        "g": "64bee8ef.b70198",
+        "z": "d37c0d33d99013c6",
+        "g": "6e8c58c7b970fef2",
         "name": "Log",
         "func": "node.log(\"NOTIF / Mattermost => OK\")\nreturn msg;",
         "outputs": 1,
@@ -1252,10 +1283,10 @@
         ]
     },
     {
-        "id": "1fd1b55c.8aa76b",
+        "id": "170251cb68522182",
         "type": "function",
-        "z": "711f44dc.b8379c",
-        "g": "64bee8ef.b70198",
+        "z": "d37c0d33d99013c6",
+        "g": "6e8c58c7b970fef2",
         "name": "Get Configuration",
         "func": "dest = msg.dest ;\nconfig = global.get(\"notif.mattermost.dest.\"+dest) || 'undefined'\n\nmsg.data = {};\nmsg.webhook = config;\nmsg.data.username = \"SmartHome\";\nmsg.data.icon_url = \"https://www.contextworld.com/documents/20126/237707/Smart+Home_M.Blue+Icon.png/c92f8c28-6f99-c685-d21a-85c7cf90b515?t=1544434686070\";\nmsg.data.text = msg.message;\n\nreturn msg;\n",
         "outputs": 1,
@@ -1267,15 +1298,15 @@
         "y": 820,
         "wires": [
             [
-                "5b2efbf4.ae0024"
+                "0b1fb84613cd8c84"
             ]
         ]
     },
     {
-        "id": "865195e1.9bc408",
+        "id": "90a2d0991cb7f055",
         "type": "http request",
-        "z": "711f44dc.b8379c",
-        "g": "64bee8ef.b70198",
+        "z": "d37c0d33d99013c6",
+        "g": "6e8c58c7b970fef2",
         "name": "Post Request",
         "method": "use",
         "ret": "txt",
@@ -1289,15 +1320,15 @@
         "y": 820,
         "wires": [
             [
-                "5cef7e36.fb01f"
+                "203c03dbc7a29204"
             ]
         ]
     },
     {
-        "id": "320a88d2.7cb0a8",
+        "id": "66128b8eaf425a63",
         "type": "function",
-        "z": "711f44dc.b8379c",
-        "g": "64bee8ef.b70198",
+        "z": "d37c0d33d99013c6",
+        "g": "6e8c58c7b970fef2",
         "name": "Format Query",
         "func": "msg.url = msg.webhook\nmsg.method = \"POST\"\nmsg.headers = {};\nmsg.headers['Content-Type'] = 'application/json';\nmsg.payload = msg.data;\n\nreturn msg;",
         "outputs": 1,
@@ -1309,15 +1340,15 @@
         "y": 820,
         "wires": [
             [
-                "865195e1.9bc408"
+                "90a2d0991cb7f055"
             ]
         ]
     },
     {
-        "id": "5b2efbf4.ae0024",
+        "id": "0b1fb84613cd8c84",
         "type": "json",
-        "z": "711f44dc.b8379c",
-        "g": "64bee8ef.b70198",
+        "z": "d37c0d33d99013c6",
+        "g": "6e8c58c7b970fef2",
         "name": "Convert Data to String",
         "property": "data",
         "action": "",
@@ -1326,15 +1357,15 @@
         "y": 820,
         "wires": [
             [
-                "320a88d2.7cb0a8"
+                "66128b8eaf425a63"
             ]
         ]
     },
     {
-        "id": "abcea9a6.402238",
+        "id": "5c920f3750f2b506",
         "type": "function",
-        "z": "711f44dc.b8379c",
-        "g": "ecdc435a.d458e",
+        "z": "d37c0d33d99013c6",
+        "g": "03114f258232250f",
         "name": "Log",
         "func": "node.log(\"NOTIF / Discord => OK\")\nreturn msg;",
         "outputs": 1,
@@ -1349,10 +1380,10 @@
         ]
     },
     {
-        "id": "7aee817f.03b6a",
+        "id": "4d89bc43b7e15233",
         "type": "function",
-        "z": "711f44dc.b8379c",
-        "g": "ecdc435a.d458e",
+        "z": "d37c0d33d99013c6",
+        "g": "03114f258232250f",
         "name": "Get Configuration",
         "func": "dest = msg.dest ;\nconfig = global.get(\"notif.discord.dest.\"+dest) || 'undefined'\nmsg.webhook = config;\n\n// MESSAGE\nusername = msg.username || \"undefined\";\ncontent = msg.message || \"undefined\";\navatar_url = msg.avatar_url || \"undefined\";\n\n// AUTHOR\nembeds_author_name = msg.embeds_author_name || \"undefined\";\nembeds_author_icon_url = msg.embeds_author_icon_url || \"undefined\";\nembeds_author_url = msg.embeds_author_url || \"undefined\";\n\nembeds_title = msg.embeds_title || \"undefined\";\nembeds_description = msg.embeds_description || \"undefined\";\nembeds_image = msg.embeds_image || \"undefined\";\nembeds_color = msg.embeds_color || \"undefined\";\nembeds_url = msg.embeds_url || \"undefined\";\nembeds_thumbnail = msg.embeds_thumbnail || \"undefined\";\nembeds_footer = msg.embeds_footer || \"undefined\";\n\nmsg.data = {};\nembeds_data = [];\n\nif (content != \"undefined\") {\n    msg.data.content = content;\n}    \nif (username == \"undefined\") {\n    msg.data.username = \"Node-RED\";\n}else{\n    msg.data.username = username;    \n}\nif (avatar_url == \"undefined\") {\n    msg.data.avatar_url = \"https://silanus.fr/sin/wp-content/uploads/2018/02/node-red-icon.png\";\n}else{\n    msg.data.avatar_url = avatar_url;    \n}\n\nif (embeds_url != \"undefined\" || embeds_title != \"undefined\" || embeds_description != \"undefined\" || embeds_thumbnail != \"undefined\" || embeds_image != \"undefined\" || embeds_footer != \"undefined\") {\n    message = {}\n    \n    if (embeds_author_name != \"undefined\" || embeds_author_icon_url != \"undefined\" || embeds_author_url != \"undefined\") {\n        message.author = {}\n        \n        if(embeds_author_name != \"undefined\") {\n            message.author.name = embeds_author_name;\n        }\n        if(embeds_author_url != \"undefined\") {\n            message.author.url = embeds_author_url;\n        }\n        if(embeds_author_icon_url != \"undefined\") {\n            message.author.icon_url = embeds_author_icon_url;\n        }    \n    }\n    \n    if(embeds_title != \"undefined\") {\n        message.title = msg.embeds_title;\n    }\n    if(embeds_description != \"undefined\") {\n        message.description = msg.embeds_description;\n    }\n    if(embeds_color != \"undefined\") {\n        message.color = parseInt(msg.embeds_color,16);\n    }    \n    if(embeds_url != \"undefined\") {\n        message.url = msg.embeds_url;\n    }    \n    if(embeds_thumbnail != \"undefined\") {\n        message.thumbnail = {};\n        message.thumbnail.url = msg.embeds_thumbnail;\n    }\n    if(embeds_image != \"undefined\") {\n        message.image = {};\n        message.image.url = msg.embeds_image;\n    }\n    if(embeds_footer != \"undefined\") {\n        message.footer = {};\n        message.footer.text = msg.embeds_footer;\n    }\n\n    embeds_data.push(message);\n    msg.data.embeds = embeds_data;\n}  \n\nreturn msg;",
         "outputs": 1,
@@ -1364,15 +1395,15 @@
         "y": 640,
         "wires": [
             [
-                "e02544ec.c0c9c8"
+                "e2f8d2c29c3fac46"
             ]
         ]
     },
     {
-        "id": "c8f2b71d.230328",
+        "id": "c88c9092e10df86e",
         "type": "http request",
-        "z": "711f44dc.b8379c",
-        "g": "ecdc435a.d458e",
+        "z": "d37c0d33d99013c6",
+        "g": "03114f258232250f",
         "name": "Post Request",
         "method": "use",
         "ret": "txt",
@@ -1386,15 +1417,15 @@
         "y": 640,
         "wires": [
             [
-                "e896886c.c45658"
+                "acf60e8cbdbe191d"
             ]
         ]
     },
     {
-        "id": "5e87cf54.db54",
+        "id": "7e44abab9b51763f",
         "type": "function",
-        "z": "711f44dc.b8379c",
-        "g": "ecdc435a.d458e",
+        "z": "d37c0d33d99013c6",
+        "g": "03114f258232250f",
         "name": "Format Query",
         "func": "msg.url = msg.webhook\nmsg.method = \"POST\"\nmsg.headers = {};\nmsg.headers['Content-Type'] = 'application/json';\nmsg.payload = msg.data;\n\nreturn msg;",
         "outputs": 1,
@@ -1406,15 +1437,15 @@
         "y": 640,
         "wires": [
             [
-                "c8f2b71d.230328"
+                "c88c9092e10df86e"
             ]
         ]
     },
     {
-        "id": "e02544ec.c0c9c8",
+        "id": "e2f8d2c29c3fac46",
         "type": "json",
-        "z": "711f44dc.b8379c",
-        "g": "ecdc435a.d458e",
+        "z": "d37c0d33d99013c6",
+        "g": "03114f258232250f",
         "name": "Convert Data to String",
         "property": "data",
         "action": "",
@@ -1423,15 +1454,15 @@
         "y": 640,
         "wires": [
             [
-                "5e87cf54.db54"
+                "7e44abab9b51763f"
             ]
         ]
     },
     {
-        "id": "fe563f3b.27a4",
+        "id": "173d4f04beeb84da",
         "type": "function",
-        "z": "711f44dc.b8379c",
-        "g": "286dba59.7ed416",
+        "z": "d37c0d33d99013c6",
+        "g": "ae87ffd25e9cd3b0",
         "name": "Get Configuration",
         "func": "dest = msg.dest ;\nconfig = global.get(\"notif.telegram.dest.\"+dest) || 'undefined'\n\nvar retour = [];\n\n// Message\nif (msg.message !== \"\") {\n    payload = {\n      chatId: config,\n      type: 'message',\n      content: msg.message\n    }\n}else{\n    payload = {\"chatId\": none};\n}\nretour.push({payload});\n\n// Image\nif (msg.image !== \"\") {\n    payload = {\n      chatId: config,\n      type: 'photo',\n      content: msg.image\n    }        \n}else{\n    payload = {\"chatId\": none};\n}\nretour.push({payload})\n\n// Video\nif (msg.video !== \"\") {\n    payload = {\n      chatId: config,\n      type: 'video',\n      content: msg.video\n    }        \n}else{\n    payload = {\"chatId\": none};\n}\nretour.push({payload})\n\n// Audio\nif (msg.audio !== \"\") {\n    payload = {\n      chatId: config,\n      type: 'audio',\n      content: msg.audio\n    }        \n}else{\n    payload = {\"chatId\": none};\n}\nretour.push({payload})\n\n// Location\nif (msg.location !== \"\") {\n    payload = {\n      chatId: config,\n      type: 'location',\n      content: msg.location\n    }        \n}else{\n    payload = {\"chatId\": none};\n}\nretour.push({payload})\n\n\n// Animation\nif (msg.animation !== \"\") {\n    payload = {\n      chatId: config,\n      type: 'animation',\n      content: msg.animation\n    }        \n}else{\n    payload = {\"chatId\": none};\n}\nretour.push({payload})\n\n\n// Voice\nif (msg.voice !== \"\") {\n    payload = {\n      chatId: config,\n      type: 'voice',\n      content: msg.voice\n    }        \n}else{\n    payload = {\"chatId\": none};\n}\nretour.push({payload})\n\n// Contact\nif (msg.contact !== \"\") {\n    payload = {\n      chatId: config,\n      type: 'contact',\n      content: msg.contact\n    }        \n}else{\n    payload = {\"chatId\": none};\n}\nretour.push({payload})\n\n\nreturn retour;",
         "outputs": 8,
@@ -1442,36 +1473,36 @@
         "y": 1100,
         "wires": [
             [
-                "a1937b5e.f10f08"
+                "c0d566657388ab2a"
             ],
             [
-                "74de5d62.659ac4"
+                "ac83247143aaa79b"
             ],
             [
-                "6bccc1cf.04292"
+                "590e4c6573f9bc59"
             ],
             [
-                "ba9c06f3.258228"
+                "cb7876ea460b105a"
             ],
             [
-                "fdc2c34.6b5b44"
+                "a64d433f5b21f1b4"
             ],
             [
-                "4adb3e12.c6031"
+                "638c5b2ccb04b9cc"
             ],
             [
-                "8098137f.117d6"
+                "415c4f41a73be317"
             ],
             [
-                "8c1c7eae.f4fe8"
+                "83209834b079ecd9"
             ]
         ]
     },
     {
-        "id": "a5718a48.8221c8",
+        "id": "7fe19a6ebf669a7d",
         "type": "function",
-        "z": "711f44dc.b8379c",
-        "g": "286dba59.7ed416",
+        "z": "d37c0d33d99013c6",
+        "g": "ae87ffd25e9cd3b0",
         "name": "Log",
         "func": "node.log(\"NOTIF / Telegram => OK\")\nreturn msg;",
         "outputs": 1,
@@ -1485,10 +1516,10 @@
         ]
     },
     {
-        "id": "a1937b5e.f10f08",
+        "id": "c0d566657388ab2a",
         "type": "switch",
-        "z": "711f44dc.b8379c",
-        "g": "286dba59.7ed416",
+        "z": "d37c0d33d99013c6",
+        "g": "ae87ffd25e9cd3b0",
         "name": "Message ?",
         "property": "payload.content",
         "propertyType": "msg",
@@ -1504,15 +1535,15 @@
         "y": 960,
         "wires": [
             [
-                "bb563cb0.de18d"
+                "b266f27bb45bd72b"
             ]
         ]
     },
     {
-        "id": "74de5d62.659ac4",
+        "id": "ac83247143aaa79b",
         "type": "switch",
-        "z": "711f44dc.b8379c",
-        "g": "286dba59.7ed416",
+        "z": "d37c0d33d99013c6",
+        "g": "ae87ffd25e9cd3b0",
         "name": "Image ?",
         "property": "payload.content",
         "propertyType": "msg",
@@ -1528,15 +1559,15 @@
         "y": 1000,
         "wires": [
             [
-                "bb563cb0.de18d"
+                "b266f27bb45bd72b"
             ]
         ]
     },
     {
-        "id": "6bccc1cf.04292",
+        "id": "590e4c6573f9bc59",
         "type": "switch",
-        "z": "711f44dc.b8379c",
-        "g": "286dba59.7ed416",
+        "z": "d37c0d33d99013c6",
+        "g": "ae87ffd25e9cd3b0",
         "name": "Video ?",
         "property": "payload.content",
         "propertyType": "msg",
@@ -1552,15 +1583,15 @@
         "y": 1040,
         "wires": [
             [
-                "bb563cb0.de18d"
+                "b266f27bb45bd72b"
             ]
         ]
     },
     {
-        "id": "ba9c06f3.258228",
+        "id": "cb7876ea460b105a",
         "type": "switch",
-        "z": "711f44dc.b8379c",
-        "g": "286dba59.7ed416",
+        "z": "d37c0d33d99013c6",
+        "g": "ae87ffd25e9cd3b0",
         "name": "Audio ?",
         "property": "payload.content",
         "propertyType": "msg",
@@ -1576,15 +1607,15 @@
         "y": 1080,
         "wires": [
             [
-                "bb563cb0.de18d"
+                "b266f27bb45bd72b"
             ]
         ]
     },
     {
-        "id": "bb563cb0.de18d",
+        "id": "b266f27bb45bd72b",
         "type": "telegram sender",
-        "z": "711f44dc.b8379c",
-        "g": "286dba59.7ed416",
+        "z": "d37c0d33d99013c6",
+        "g": "ae87ffd25e9cd3b0",
         "name": "",
         "bot": "930eda8b.cf74a8",
         "outputs": 1,
@@ -1592,15 +1623,15 @@
         "y": 1100,
         "wires": [
             [
-                "a5718a48.8221c8"
+                "7fe19a6ebf669a7d"
             ]
         ]
     },
     {
-        "id": "8098137f.117d6",
+        "id": "415c4f41a73be317",
         "type": "switch",
-        "z": "711f44dc.b8379c",
-        "g": "286dba59.7ed416",
+        "z": "d37c0d33d99013c6",
+        "g": "ae87ffd25e9cd3b0",
         "name": "Voice ?",
         "property": "payload.content",
         "propertyType": "msg",
@@ -1616,15 +1647,15 @@
         "y": 1200,
         "wires": [
             [
-                "bb563cb0.de18d"
+                "b266f27bb45bd72b"
             ]
         ]
     },
     {
-        "id": "fdc2c34.6b5b44",
+        "id": "a64d433f5b21f1b4",
         "type": "switch",
-        "z": "711f44dc.b8379c",
-        "g": "286dba59.7ed416",
+        "z": "d37c0d33d99013c6",
+        "g": "ae87ffd25e9cd3b0",
         "name": "Location ?",
         "property": "payload.content",
         "propertyType": "msg",
@@ -1640,15 +1671,15 @@
         "y": 1120,
         "wires": [
             [
-                "bb563cb0.de18d"
+                "b266f27bb45bd72b"
             ]
         ]
     },
     {
-        "id": "4adb3e12.c6031",
+        "id": "638c5b2ccb04b9cc",
         "type": "switch",
-        "z": "711f44dc.b8379c",
-        "g": "286dba59.7ed416",
+        "z": "d37c0d33d99013c6",
+        "g": "ae87ffd25e9cd3b0",
         "name": "Animation ?",
         "property": "payload.content",
         "propertyType": "msg",
@@ -1664,15 +1695,15 @@
         "y": 1160,
         "wires": [
             [
-                "bb563cb0.de18d"
+                "b266f27bb45bd72b"
             ]
         ]
     },
     {
-        "id": "8c1c7eae.f4fe8",
+        "id": "83209834b079ecd9",
         "type": "switch",
-        "z": "711f44dc.b8379c",
-        "g": "286dba59.7ed416",
+        "z": "d37c0d33d99013c6",
+        "g": "ae87ffd25e9cd3b0",
         "name": "Contact ?",
         "property": "payload.content",
         "propertyType": "msg",
@@ -1688,79 +1719,71 @@
         "y": 1240,
         "wires": [
             [
-                "bb563cb0.de18d"
+                "b266f27bb45bd72b"
             ]
         ]
     },
     {
-        "id": "e9b7f1e.7b2dc1",
+        "id": "16322f181306e08e",
         "type": "link out",
-        "z": "711f44dc.b8379c",
-        "g": "ecdc435a.d458e",
+        "z": "d37c0d33d99013c6",
+        "g": "03114f258232250f",
         "name": "Retry Discord",
-        "links": [
-            "d1db25d0.686ce8"
-        ],
+        "links": [],
         "x": 2700,
         "y": 600,
         "wires": [],
         "l": true
     },
     {
-        "id": "d1db25d0.686ce8",
+        "id": "827db2d7a25f0a2d",
         "type": "link in",
-        "z": "711f44dc.b8379c",
-        "g": "ecdc435a.d458e",
+        "z": "d37c0d33d99013c6",
+        "g": "03114f258232250f",
         "name": "Retry Discord",
-        "links": [
-            "e9b7f1e.7b2dc1"
-        ],
+        "links": [],
         "x": 1670,
         "y": 600,
         "wires": [
             [
-                "5e87cf54.db54"
+                "7e44abab9b51763f"
             ]
         ],
         "l": true
     },
     {
-        "id": "6a81a4ef.2d8d9c",
+        "id": "f047234e72f5e847",
         "type": "link out",
-        "z": "711f44dc.b8379c",
-        "g": "64bee8ef.b70198",
+        "z": "d37c0d33d99013c6",
+        "g": "6e8c58c7b970fef2",
         "name": "Retry Mattermost",
-        "links": [
-            "2b204825.ddc228"
-        ],
+        "links": [],
         "x": 2710,
         "y": 780,
         "wires": [],
         "l": true
     },
     {
-        "id": "2b204825.ddc228",
+        "id": "336d65f4487fe26d",
         "type": "link in",
-        "z": "711f44dc.b8379c",
-        "g": "64bee8ef.b70198",
+        "z": "d37c0d33d99013c6",
+        "g": "6e8c58c7b970fef2",
         "name": "Retry Mattermost",
-        "links": [
-            "6a81a4ef.2d8d9c"
-        ],
+        "links": [],
         "x": 1650,
         "y": 780,
         "wires": [
             [
-                "320a88d2.7cb0a8"
+                "66128b8eaf425a63"
             ]
         ],
         "l": true
     },
     {
-        "id": "1c900d5e.09b683",
+        "id": "b6197462ef40847b",
         "type": "delay",
-        "z": "711f44dc.b8379c",
-        "g": "ecdc435a.d458e",
+        "z": "d37c0d33d99013c6",
+        "g": "03114f258232250f",
         "name": "",
         "pauseType": "delay",
         "timeout": "5",
@@ -1772,19 +1795,20 @@
         "randomLast": "5",
         "randomUnits": "seconds",
         "drop": false,
+        "outputs": 1,
         "x": 2520,
         "y": 600,
         "wires": [
             [
-                "e9b7f1e.7b2dc1"
+                "16322f181306e08e"
             ]
         ]
     },
     {
-        "id": "8275ade.a46ba5",
+        "id": "9e69575b8c717131",
         "type": "delay",
-        "z": "711f44dc.b8379c",
-        "g": "64bee8ef.b70198",
+        "z": "d37c0d33d99013c6",
+        "g": "6e8c58c7b970fef2",
         "name": "",
         "pauseType": "delay",
         "timeout": "5",
@@ -1796,19 +1820,20 @@
         "randomLast": "5",
         "randomUnits": "seconds",
         "drop": false,
+        "outputs": 1,
         "x": 2520,
         "y": 780,
         "wires": [
             [
-                "6a81a4ef.2d8d9c"
+                "f047234e72f5e847"
             ]
         ]
     },
     {
-        "id": "e896886c.c45658",
+        "id": "acf60e8cbdbe191d",
         "type": "function",
-        "z": "711f44dc.b8379c",
-        "g": "ecdc435a.d458e",
+        "z": "d37c0d33d99013c6",
+        "g": "03114f258232250f",
         "name": "",
         "func": "if (msg.statusCode < 300 && msg.statusCode >= 200) {\n    msg.success = true;\n}else{\n    msg.success = false;\n}\nreturn msg;",
         "outputs": 1,
@@ -1819,15 +1844,15 @@
         "y": 640,
         "wires": [
             [
-                "2e838fa7.9cc17"
+                "85a509fd6b70cb4e"
             ]
         ]
     },
     {
-        "id": "2e838fa7.9cc17",
+        "id": "85a509fd6b70cb4e",
         "type": "switch",
-        "z": "711f44dc.b8379c",
-        "g": "ecdc435a.d458e",
+        "z": "d37c0d33d99013c6",
+        "g": "03114f258232250f",
         "name": "",
         "property": "payload",
         "propertyType": "msg",
@@ -1846,18 +1871,18 @@
         "y": 640,
         "wires": [
             [
-                "1c900d5e.09b683"
+                "b6197462ef40847b"
             ],
             [
-                "abcea9a6.402238"
+                "5c920f3750f2b506"
             ]
         ]
     },
     {
-        "id": "5cef7e36.fb01f",
+        "id": "203c03dbc7a29204",
         "type": "function",
-        "z": "711f44dc.b8379c",
-        "g": "64bee8ef.b70198",
+        "z": "d37c0d33d99013c6",
+        "g": "6e8c58c7b970fef2",
         "name": "",
         "func": "if (msg.statusCode < 300 && msg.statusCode >= 200) {\n    msg.success = true;\n}else{\n    msg.success = false;\n}\nreturn msg;",
         "outputs": 1,
@@ -1868,15 +1893,15 @@
         "y": 820,
         "wires": [
             [
-                "8e5741c9.438b9"
+                "b7f0b182222f387c"
             ]
         ]
     },
     {
-        "id": "8e5741c9.438b9",
+        "id": "b7f0b182222f387c",
         "type": "switch",
-        "z": "711f44dc.b8379c",
-        "g": "64bee8ef.b70198",
+        "z": "d37c0d33d99013c6",
+        "g": "6e8c58c7b970fef2",
         "name": "",
         "property": "payload",
         "propertyType": "msg",
@@ -1895,18 +1920,18 @@
         "y": 820,
         "wires": [
             [
-                "8275ade.a46ba5"
+                "9e69575b8c717131"
             ],
             [
-                "dc0af305.08c5c"
+                "be48507a4c85f8c8"
             ]
         ]
     },
     {
-        "id": "75261914.04f268",
+        "id": "e62922d05357197a",
         "type": "http request",
-        "z": "711f44dc.b8379c",
-        "g": "53f4a8db.b4d4",
+        "z": "d37c0d33d99013c6",
+        "g": "3f12f7dfcb5c7f40",
         "name": "SMS via HTTP",
         "method": "use",
         "ret": "txt",
@@ -1920,15 +1945,15 @@
         "y": 1350,
         "wires": [
             [
-                "8dd71a85.f2d438"
+                "f17f05154119affb"
             ]
         ]
     },
     {
-        "id": "8dd71a85.f2d438",
+        "id": "f17f05154119affb",
         "type": "function",
-        "z": "711f44dc.b8379c",
-        "g": "53f4a8db.b4d4",
+        "z": "d37c0d33d99013c6",
+        "g": "3f12f7dfcb5c7f40",
         "name": "Log",
         "func": "node.log(\"NOTIF / SMS => OK\")\nreturn msg;",
         "outputs": 1,
@@ -1942,10 +1967,10 @@
         ]
     },
     {
-        "id": "a3064f17.e8a538",
+        "id": "d3901c18ac0bf9b8",
         "type": "function",
-        "z": "711f44dc.b8379c",
-        "g": "53f4a8db.b4d4",
+        "z": "d37c0d33d99013c6",
+        "g": "3f12f7dfcb5c7f40",
         "name": "Get Configuration",
         "func": "var dest = msg.dest ;\nvar sms_url = global.get('notif.sms.url');\nvar sms_number = global.get(\"notif.sms.dest.\"+dest) || 'undefined'\nvar message = encodeURIComponent(msg.message);\n\nmsg.method = \"POST\"\nmsg.url = sms_url.replace(\"##SMSNUMBER##\",sms_number).replace(\"##MESSAGE##\",message)\n\nreturn msg;",
         "outputs": 1,
@@ -1956,15 +1981,15 @@
         "y": 1350,
         "wires": [
             [
-                "75261914.04f268"
+                "e62922d05357197a"
             ]
         ]
     },
     {
-        "id": "fd1b76aa.ef0938",
+        "id": "b786f8be85ca161f",
         "type": "http request",
-        "z": "711f44dc.b8379c",
-        "g": "7e7775b.f8ebb8c",
+        "z": "d37c0d33d99013c6",
+        "g": "b320a76202a15be4",
         "name": "awtrix notify",
         "method": "use",
         "ret": "txt",
@@ -1978,15 +2003,15 @@
         "y": 1460,
         "wires": [
             [
-                "39428588.44afda"
+                "849f6c694d844931"
             ]
         ]
     },
     {
-        "id": "39428588.44afda",
+        "id": "849f6c694d844931",
         "type": "function",
-        "z": "711f44dc.b8379c",
-        "g": "7e7775b.f8ebb8c",
+        "z": "d37c0d33d99013c6",
+        "g": "b320a76202a15be4",
         "name": "Log",
         "func": "node.log(\"NOTIF / Awtrix => OK\")\nreturn msg;",
         "outputs": 1,
@@ -2000,10 +2025,10 @@
         ]
     },
     {
-        "id": "4f3f2917.7e3108",
+        "id": "86851be5233ceb32",
         "type": "function",
-        "z": "711f44dc.b8379c",
-        "g": "7e7775b.f8ebb8c",
+        "z": "d37c0d33d99013c6",
+        "g": "b320a76202a15be4",
         "name": "Get Configuration",
         "func": "var dest = msg.dest;\nvar message = msg.message;\nvar awtrix_host = global.get(\"notif.awtrix.dest.\" + dest) || 'undefined'\n\nmsg.method = \"POST\"\nmsg.url = \"http://\" + awtrix_host + \"/api/v3/notify\"\n\nmsg.payload = {\n \"name\": \"NodeRedNotification\",\n \"icon\": 225,\n \"moveIcon\": true,\n \"lifetime\": 999999,\n \"text\": message,\n \"repeat\": 2,\n \"color\": [0, 255, 0]\n}\n\nreturn msg;",
         "outputs": 1,
@@ -2014,14 +2039,14 @@
         "y": 1460,
         "wires": [
             [
-                "fd1b76aa.ef0938"
+                "b786f8be85ca161f"
             ]
         ]
     },
     {
-        "id": "b05aae4b.366cc",
+        "id": "732d064b166d2f05",
         "type": "http in",
-        "z": "711f44dc.b8379c",
+        "z": "d37c0d33d99013c6",
         "name": "",
         "url": "/notif",
         "method": "get",
@@ -2031,15 +2056,15 @@
         "y": 680,
         "wires": [
             [
-                "542e8255.5641bc",
-                "86c856c4.a9d068"
+                "cd3a6050bcdf6345",
+                "74496153dba3fa18"
             ]
         ]
     },
     {
-        "id": "542e8255.5641bc",
+        "id": "cd3a6050bcdf6345",
         "type": "function",
-        "z": "711f44dc.b8379c",
+        "z": "d37c0d33d99013c6",
         "name": "",
         "func": "msg = msg.payload;\nreturn msg;",
         "outputs": 1,
@@ -2050,14 +2075,14 @@
         "y": 680,
         "wires": [
             [
-                "11d2840b.c4c60c"
+                "b45bfdf42c36c673"
             ]
         ]
     },
     {
-        "id": "bc0689a.817ab78",
+        "id": "ce3cc9d175269965",
         "type": "http response",
-        "z": "711f44dc.b8379c",
+        "z": "d37c0d33d99013c6",
         "name": "",
         "statusCode": "",
         "headers": {},
@@ -2066,9 +2091,9 @@
         "wires": []
     },
     {
-        "id": "86c856c4.a9d068",
+        "id": "74496153dba3fa18",
         "type": "change",
-        "z": "711f44dc.b8379c",
+        "z": "d37c0d33d99013c6",
         "name": "Return",
         "rules": [
             {
@@ -2095,8 +2120,68 @@
         "y": 730,
         "wires": [
             [
-                "bc0689a.817ab78"
+                "ce3cc9d175269965"
             ]
+        ]
+    },
+    {
+        "id": "c209b185326fa55d",
+        "type": "function",
+        "z": "d37c0d33d99013c6",
+        "g": "5997e3e14331eedd",
+        "name": "Get configuration",
+        "func": "var dest = msg.dest;\nmsg.url = global.get('notif.callmebot.dest.' + dest) || 'undefined';\n\nmsg.url += '&text=' + encodeURIComponent(msg.message);\n\nif (dest.startsWith('callmebot_telegramvoice_') && msg.repeat) {\n    msg.url += '&rpt=' + msg.repeat;\n}\nif (dest.startsWith('callmebot_messenger_') && msg.image) {\n    msg.url += '&image=' + msg.image;\n}\n\nmsg.method = 'GET';\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1410,
+        "y": 1580,
+        "wires": [
+            [
+                "c84070fdde40580e"
+            ]
+        ]
+    },
+    {
+        "id": "c84070fdde40580e",
+        "type": "http request",
+        "z": "d37c0d33d99013c6",
+        "g": "5997e3e14331eedd",
+        "name": "CallmeBot HTTP",
+        "method": "use",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "authType": "",
+        "senderr": false,
+        "x": 1650,
+        "y": 1580,
+        "wires": [
+            [
+                "4b869e8725b611ba"
+            ]
+        ]
+    },
+    {
+        "id": "4b869e8725b611ba",
+        "type": "function",
+        "z": "d37c0d33d99013c6",
+        "g": "5997e3e14331eedd",
+        "name": "Log",
+        "func": "node.log(\"NOTIF / Awtrix => OK\")\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 1830,
+        "y": 1580,
+        "wires": [
+            []
         ]
     },
     {
@@ -2133,6 +2218,7 @@
         "certificate": "",
         "useselfsignedcertificate": false,
         "sslterminated": false,
-        "verboselogging": false
+        "verboselogging": false,
+        "credentials": {}
     }
 ]
