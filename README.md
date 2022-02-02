@@ -8,9 +8,9 @@ Petit screen :
 
 **Information**
 
-Ce subflow va vous permettre de notifier plusieurs service en même temps.
+Ce subflow va vous permettre de notifier plusieurs services en même temps.
 
-Actuellement il gérée les services :
+Actuellement il gére les services :
 
 - HTML5 (by Home Assistant)
 - Discord
@@ -21,6 +21,10 @@ Actuellement il gérée les services :
 - Home Assistant (Mobile App)
 - SMS via HTTP
 - Awtrix
+- Appel Telegram (avec CallMeBot)
+- Signal (avec CallMeBot)
+- WhatsApp (avec CallMeBot)
+- Facebook Messenger (avec CallMeBot)
 
 **Pré-requis**
 
@@ -73,7 +77,7 @@ msg.title = "Home Assistant - New version available"
 
 **Message** / *msg.message*
 
-*Disponible sur : Email / Telegram / Discord*
+*Disponible sur : Email / Telegram / Discord / CallMeBot*
 
 Version longue du message.
 
@@ -96,9 +100,20 @@ ATTENTION : Les messages est trim et les \n sont remplacer par des espace
 
 => Si il n’est pas défini, je reprend les msg.message
 
+**Répétition du message** / *msg.repeat*
+
+*Disponible sur : Telegram Voice (CallMeBot)*
+
+Répète le message audio X fois.
+
+*Exemple:*
+```
+msg.repeat = 2
+```
+
 **Image** / *msg.image*
 
-*Disponible sur : Telegram*
+*Disponible sur : Telegram / CallMeBot Messenger*
 
 *Exemple:*
 ```
@@ -191,7 +206,7 @@ msg.dest = "tts_80_hall"
 **SMS**
 dest doit commencer par `sms_`
 
-_Exemple:_
+*Exemple:*
 ```
 msg.dest = "sms_clement"
 ```
@@ -199,9 +214,41 @@ msg.dest = "sms_clement"
 **Awtrix**
 dest doit commencer par `awtrix_`
 
-_Exemple:_
+*Exemple:*
 ```
 msg.dest = "awtrix_home"
+```
+
+**Telegram Voice (CallMeBot)**
+dest doit commencer par `callmebot_telegram_voice_`
+
+*Exemple:*
+```
+msg.dest = "callmebot_telegram_voice_clement"
+```
+
+**FacebookMessenger (CallMeBot)**
+dest doit commencer par `callmebot_messenger_`
+
+*Exemple:*
+```
+msg.dest = "callmebot_messenger_clement"
+```
+
+**Signal (CallMeBot)**
+dest doit commencer par `callmebot_signal_`
+
+*Exemple:*
+```
+msg.dest = "callmebot_signal_clement"
+```
+
+**Whatsapp (CallMeBot)**
+dest doit commencer par `callmebot_whatsapp_`
+
+*Exemple:*
+```
+msg.dest = "callmebot_whatsapp_clement"
 ```
 
 **Configuration**
@@ -258,6 +305,14 @@ var configuration =
         "dest": {
             "awtrix_home": "192.168.1.1:7000",
             "awtrix_desk": "192.168.1.2:7000",
+        }
+    },
+    "callmebot": {
+        "dest": {
+            "callmebot_messenger_clement" : "https://api.callmebot.com/facebook/send.php?apikey=##APIKEY##",
+            "callmebot_signal_clement" : "https://api.callmebot.com/signal/send.php?phone=##PHONENUMBER##&apikey=##APIKEY##",
+            "callmebot_telegram_voice_clement" : "http://api.callmebot.com/start.php?user=##USERNAME##&lang=##LANGUAGE##",
+            "callmebot_whatsapp_clement" : "https://api.callmebot.com/whatsapp.php?phone=##PHONENUMBER##&apikey=##APIKEY##"
         }
     }
 }
